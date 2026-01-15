@@ -104,11 +104,11 @@ https://badge.dimensions.ai/
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Hercules Dome – Liam Kirkpatrick">
 <meta property="og:description" content="2022-23 Hercules Dome Field Season Post">
-<meta property="og:image" content="https://liamkirkpatrick.github.io/post_files/post_images/hercules_dome/IMG_9347.jpeg">
+<meta property="og:image" content="https://liamkirkpatrick.github.io/files/images/herc_dome/kneeling.jpeg">
 <meta property="og:site_name" content="Liam Kirkpatrick">
 <meta name="twitter:title" content="Hercules Dome – Liam Kirkpatrick">
 <meta name="twitter:description" content="2022-23 Hercules Dome Field Season Post">
-<meta name="twitter:image" content="https://liamkirkpatrick.github.io/post_files/post_images/hercules_dome/IMG_9347.jpeg">
+<meta name="twitter:image" content="https://liamkirkpatrick.github.io/files/images/herc_dome/kneeling.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -261,7 +261,129 @@ https://badge.dimensions.ai/
 <p>To do this, we employed a range of radar technologies. We used a HF radar system, broadcasting at 3 MHz, to image deep ice layers and the bedrock at ~1700 m depth. A shallow VHF radar system (100-200 MHz) allowed us to visualize layers in the upper 100 m, understanding snow accumulation variations in the region. Finally, a phase sensitive radar system (aPRES) allowed us to very accurately identify the depth of layers at point locations. By comparing these measurements with those from previous years in the exact same spot, we are able to calculate the vertical velocity (compaction rates) of the ice at different depths. By putting these systems together, we are able to build a fairly comprehensive understanding of the ice flow in the region. Critically, this should give us the best odds of drilling a successful ice core which achieves the desired temporal scale.</p>
 <p>The core of our team was four scientists. Myself, a fellow UW PhD student, a PhD student from the University of Maine, and my advisor (a UW professor). However, it took more than the four of us to get the job done. We were joined by a field safety coordinator from the US Antarctic Program, and two pilots and a mechanic from Ken Borek Air, who operated the Twin Otter we used to get to and from Hercules Dome each day.</p>
 <p>The original plan was to spend a month camping at Hercules Dome, but COVID outbreaks resulted in significant delays and logistical interruptions. Our plan ended up settling on almost four weeks of day trips to Hercules Dome, from the US-run base at the South Pole. With weather delays, this did limit our time on the ground, but we were happy to still have an opportunity to do our science amid such a difficult year for Antarctic research.</p>
-<p>Below are some of my favorite photos from the season. Some were taken by me, but the majority were by Kelsey Kushneryk, one of our pilots and an incredible photographer.</p>
+<p>Below are some of my favorite photos from the season. Some were taken by me, but the majority were by <a href="https://www.instagram.com/kelseykushneryk/?hl=en">Kelsey Kushneryk</a>, one of our pilots and an incredible photographer.</p>
+<div class="q-gallery" data-gallery="/files/images/herc_dome/herc_dome.yml">
+
+</div>
+<script>
+(async () => {
+  // // Show error messages
+  //   const nodes = document.querySelectorAll(".q-gallery[data-gallery]");
+  // console.log("Found gallery nodes:", nodes.length);
+  
+  // for (const node of nodes) {
+  //   const ymlPath = node.getAttribute("data-gallery");
+  //   console.log("Loading YAML from:", ymlPath);
+
+
+
+  //   const ymlText = await fetch(`${ymlPath}`).then(r => {
+  //     console.log("Fetch response:", r.status, r.ok);
+  //     if (!r.ok) throw new Error(`Could not load gallery YAML: ${ymlPath}`);
+  //     return r.text();
+  //   }).catch(err => {
+  //     console.error("Failed to load YAML:", err);
+  //     node.innerHTML = `<p class="text-danger">Error loading gallery: ${err.message}</p>`;
+  //     return null;
+  //   });
+
+  //   if (!ymlText) continue;
+
+  //   const gallery = window.jsyaml.load(ymlText);
+  //   console.log("Loaded gallery:", gallery);
+
+  // Find all gallery placeholders on the page
+  const nodes = document.querySelectorAll(".q-gallery[data-gallery]");
+  for (const node of nodes) {
+    const ymlPath = node.getAttribute("data-gallery");
+
+    // Load YAML and parse it (Quarto sites already ship Bootstrap, but not YAML parsing)
+    // We'll load a tiny YAML parser from a CDN.
+    const ensureYaml = () =>
+      new Promise((resolve, reject) => {
+        if (window.jsyaml) return resolve();
+        const s = document.createElement("script");
+        s.src = "https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js";
+        s.onload = resolve;
+        s.onerror = reject;
+        document.head.appendChild(s);
+      });
+
+    await ensureYaml();
+
+    const ymlText = await fetch(`/${ymlPath}`).then(r => {
+      if (!r.ok) throw new Error(`Could not load gallery YAML: ${ymlPath}`);
+      return r.text();
+    });
+
+    const gallery = window.jsyaml.load(ymlText);
+    const id = gallery.id || `gallery-${Math.random().toString(16).slice(2)}`;
+    const showCaptions = (gallery.show_captions || "below").toLowerCase();
+    const images = gallery.images || [];
+
+    if (!images.length) {
+      node.innerHTML = "<p><em>No images found for this gallery.</em></p>";
+      continue;
+    }
+
+    // Build carousel HTML (Bootstrap 5)
+    const indicators = images.map((_, i) => `
+      <button type="button" data-bs-target="#${id}" data-bs-slide-to="${i}"
+        class="${i === 0 ? "active" : ""}"
+        aria-current="${i === 0 ? "true" : "false"}"
+        aria-label="Slide ${i + 1}">
+      </button>
+    `).join("");
+
+    const slides = images.map((img, i) => {
+      const title = img.title ? `<div class="qcap-title">${escapeHtml(img.title)}</div>` : "";
+      const caption = img.caption ? `<div class="qcap-caption">${escapeHtml(img.caption)}</div>` : "";
+      const alt = img.alt ? escapeHtml(img.alt) : "";
+
+      const overlay = (showCaptions === "overlay")
+        ? `<div class="carousel-caption qcap-overlay">${title}${caption}</div>`
+        : "";
+
+      const below = (showCaptions === "below")
+        ? `<div class="qcap-below">${title}${caption}</div>`
+        : "";
+
+      return `
+        <div class="carousel-item ${i === 0 ? "active" : ""}">
+          <img src="/${img.src}" class="d-block w-100 q-gallery-img" alt="${alt}">
+          ${overlay}
+          ${below}
+        </div>
+      `;
+    }).join("");
+
+    node.innerHTML = `
+      <div id="${id}" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">${indicators}</div>
+        <div class="carousel-inner">${slides}</div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#${id}" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#${id}" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    `;
+
+    // Small helper to avoid HTML injection from captions
+    function escapeHtml(str) {
+      return String(str)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+  }
+})();
+</script>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 

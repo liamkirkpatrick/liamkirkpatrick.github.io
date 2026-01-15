@@ -1,1 +1,28 @@
 /* css styles */
+
+.q-gallery-img {
+  max-height: 70vh;
+  object-fit: contain;
+  background: rgba(0,0,0,0.05);
+}
+
+.qcap-below {
+  padding: 0.75rem 1rem 0.25rem 1rem;
+}
+
+.qcap-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.qcap-caption {
+  opacity: 0.85;
+  line-height: 1.35;
+}
+
+/* Overlay captions: readable on bright photos */
+.qcap-overlay {
+  background: rgba(0,0,0,0.55);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+}
