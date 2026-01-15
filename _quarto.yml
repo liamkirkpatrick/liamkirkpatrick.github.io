@@ -21,26 +21,16 @@ website:
 #        href: index.qmd
       - text: About
         menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
           - text: Contact
             href: contact.qmd             
-      - text: Research
+      - text: Research 
         menu:
-          - text: List of Publications
-            href: publications.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
+          - text: Fieldwork
+            href: posts.qmd#category=fieldwork   
       - text: Outreach
         menu:        
         - text: Presentations
           href: posts.qmd#category=presentation                   
-      - text: Group   # Comment the Group part out to remove the Group page
-        href: people.qmd
 
     right: 
       - text: CV
