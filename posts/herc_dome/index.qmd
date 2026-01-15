@@ -10,8 +10,6 @@ image: "/files/images/herc_dome/kneeling.jpeg"
 #draft: true
 ---
 
-
-
 I was lucky to join a 4-person team on the ‘22-’23 Hercules Dome field season. This season represented the final year of geophysical surveys identifying an ice core drilling project at Hercules Dome. 
 
 The broad goal of this project is to drill an ice core which will provide a history of the West Antarctic Ice Sheet, and so also of sea level rise. The last interglacial, a time period a little over 100,000 years ago, is the last opportunity to study how the West Antarctic Ice Sheet responds to warmer global temperatures. Some evidence indicates that the ice sheet may have almost completely collapsed durring the last interglacial, which would have massive impacts on sea level rise. Verifying this would help us understand the risk of changes over this and future centuries.
@@ -53,7 +51,7 @@ Below are some of my favorite photos from the season. Some were taken by me, but
 
     await ensureYaml();
 
-    const ymlText = await fetch(`/${ymlPath}`).then(r => {
+    const ymlText = await fetch(ymlPath).then(r => {
       if (!r.ok) throw new Error(`Could not load gallery YAML: ${ymlPath}`);
       return r.text();
     });
@@ -87,12 +85,12 @@ Below are some of my favorite photos from the season. Some were taken by me, but
         : "";
 
       const below = (showCaptions === "below")
-        ? `<div class="qcap-below">${title}${caption}</div>`
+        ? `<div class="qcap-below">${caption}</div>`
         : "";
 
       return `
         <div class="carousel-item ${i === 0 ? "active" : ""}">
-          <img src="/${img.src}" class="d-block w-100 q-gallery-img" alt="${alt}">
+          <img src="${img.src}" class="d-block w-100 q-gallery-img" alt="${alt}">
           ${overlay}
           ${below}
         </div>
@@ -100,7 +98,7 @@ Below are some of my favorite photos from the season. Some were taken by me, but
     }).join("");
 
     node.innerHTML = `
-      <div id="${id}" class="carousel slide" data-bs-ride="false">
+      <div id="${id}" class="carousel slide" tdata-bs-ride="false">
         <div class="carousel-indicators">${indicators}</div>
         <div class="carousel-inner">${slides}</div>
         <button class="carousel-control-prev" type="button" data-bs-target="#${id}" data-bs-slide="prev">

@@ -109,30 +109,6 @@ https://quarto.org/docs/authoring/includes.html
 </div>
 <script>
 (async () => {
-  // // Show error messages
-  //   const nodes = document.querySelectorAll(".q-gallery[data-gallery]");
-  // console.log("Found gallery nodes:", nodes.length);
-  
-  // for (const node of nodes) {
-  //   const ymlPath = node.getAttribute("data-gallery");
-  //   console.log("Loading YAML from:", ymlPath);
-
-
-
-  //   const ymlText = await fetch(`${ymlPath}`).then(r => {
-  //     console.log("Fetch response:", r.status, r.ok);
-  //     if (!r.ok) throw new Error(`Could not load gallery YAML: ${ymlPath}`);
-  //     return r.text();
-  //   }).catch(err => {
-  //     console.error("Failed to load YAML:", err);
-  //     node.innerHTML = `<p class="text-danger">Error loading gallery: ${err.message}</p>`;
-  //     return null;
-  //   });
-
-  //   if (!ymlText) continue;
-
-  //   const gallery = window.jsyaml.load(ymlText);
-  //   console.log("Loaded gallery:", gallery);
 
   // Find all gallery placeholders on the page
   const nodes = document.querySelectorAll(".q-gallery[data-gallery]");
@@ -153,7 +129,7 @@ https://quarto.org/docs/authoring/includes.html
 
     await ensureYaml();
 
-    const ymlText = await fetch(`/${ymlPath}`).then(r => {
+    const ymlText = await fetch(ymlPath).then(r => {
       if (!r.ok) throw new Error(`Could not load gallery YAML: ${ymlPath}`);
       return r.text();
     });
@@ -187,12 +163,12 @@ https://quarto.org/docs/authoring/includes.html
         : "";
 
       const below = (showCaptions === "below")
-        ? `<div class="qcap-below">${title}${caption}</div>`
+        ? `<div class="qcap-below">${caption}</div>`
         : "";
 
       return `
         <div class="carousel-item ${i === 0 ? "active" : ""}">
-          <img src="/${img.src}" class="d-block w-100 q-gallery-img" alt="${alt}">
+          <img src="${img.src}" class="d-block w-100 q-gallery-img" alt="${alt}">
           ${overlay}
           ${below}
         </div>
@@ -200,7 +176,7 @@ https://quarto.org/docs/authoring/includes.html
     }).join("");
 
     node.innerHTML = `
-      <div id="${id}" class="carousel slide" data-bs-ride="false">
+      <div id="${id}" class="carousel slide" tdata-bs-ride="false">
         <div class="carousel-indicators">${indicators}</div>
         <div class="carousel-inner">${slides}</div>
         <button class="carousel-control-prev" type="button" data-bs-target="#${id}" data-bs-slide="prev">

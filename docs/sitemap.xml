@@ -1,71 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts.html</loc>
+    <loc>https://liamkirkpatrick.github.io/posts.html</loc>
     <lastmod>2026-01-15T06:07:03.137Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/publications.html</loc>
-    <lastmod>2026-01-15T06:07:03.140Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/projects.html</loc>
-    <lastmod>2026-01-15T06:07:03.140Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/index.html</loc>
-    <lastmod>2026-01-15T06:07:03.137Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/index.html</loc>
-    <lastmod>2026-01-15T06:07:03.140Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/teaching.html</loc>
-    <lastmod>2026-01-15T06:07:03.140Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/contact.html</loc>
-    <lastmod>2026-01-15T15:55:38.340Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/index.html</loc>
-    <lastmod>2026-01-15T06:07:03.137Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/index.html</loc>
-    <lastmod>2026-01-15T15:54:03.908Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/people.html</loc>
-    <lastmod>2026-01-15T06:07:03.134Z</lastmod>
-  </url>
-  <url>
-    <loc>https://liamkirkpatrick.github.io/people.html</loc>
-    <lastmod>2026-01-15T06:07:03.134Z</lastmod>
-  </url>
-  <url>
-    <loc>https://liamkirkpatrick.github.io/index.html</loc>
-    <lastmod>2026-01-15T16:11:57.385Z</lastmod>
   </url>
   <url>
     <loc>https://liamkirkpatrick.github.io/publications.html</loc>
     <lastmod>2026-01-15T16:20:06.073Z</lastmod>
   </url>
   <url>
-    <loc>https://liamkirkpatrick.github.io/teaching.html</loc>
+    <loc>https://liamkirkpatrick.github.io/projects.html</loc>
     <lastmod>2026-01-15T06:07:03.140Z</lastmod>
-  </url>
-  <url>
-    <loc>https://liamkirkpatrick.github.io/posts.html</loc>
-    <lastmod>2026-01-15T06:07:03.137Z</lastmod>
-  </url>
-  <url>
-    <loc>https://liamkirkpatrick.github.io/posts/herc_dome/index.html</loc>
-    <lastmod>2026-01-15T17:24:14.220Z</lastmod>
   </url>
   <url>
     <loc>https://liamkirkpatrick.github.io/posts/news-title/index.html</loc>
     <lastmod>2026-01-15T06:07:03.137Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liamkirkpatrick.github.io/posts/event-title/index.html</loc>
+    <lastmod>2026-01-15T06:07:03.137Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liamkirkpatrick.github.io/contact.html</loc>
+    <lastmod>2026-01-15T15:55:38.340Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liamkirkpatrick.github.io/posts/paper-title/index.html</loc>
+    <lastmod>2026-01-15T06:07:03.140Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liamkirkpatrick.github.io/posts/herc_dome/index.html</loc>
+    <lastmod>2026-01-15T21:29:25.559Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liamkirkpatrick.github.io/index.html</loc>
+    <lastmod>2026-01-15T16:11:57.385Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liamkirkpatrick.github.io/people.html</loc>
+    <lastmod>2026-01-15T06:07:03.134Z</lastmod>
   </url>
 </urlset>

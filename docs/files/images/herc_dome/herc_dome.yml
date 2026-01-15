@@ -1,0 +1,29 @@
+id: field-campaign
+show_captions: below   # "below" or "overlay"
+images:
+  - src: /files/images/herc_dome/benliam.jpg
+    title: "HF Radar Sled"
+    caption: "Here I stand with Ben Hills next to our HF radar sled at Hercules Dome, Antarctica."
+    alt: "Ben and Liam stand beside HF radar sled in Antarctica"
+
+  - src: /files/images/herc_dome/leaving_plane.jpg
+    title: "Leaving the Plane"
+    caption: "Leaving Twin Otter for a day of radar work."
+    alt: "Ben and I drive skidoo away from Twin Otter"
+
+  - src: /files/images/herc_dome/returning_plane.jpeg
+    title: "Returning"
+    caption: "Returning to the Twin Otter under a cloudy sky after a day of work."
+    alt: "Skidoo returns to plane under approaching cloud."
+
+  - src: /files/images/herc_dome/southpole.jpeg
+    title: "South Pole"
+    caption: "This (ceremonial) marker celebrates the south pole, but ice flow means this marker moves a couple meters away from the true pole each year."
+    alt: "Liam kneels by south pole marker"
+
+  - src: /files/images/herc_dome/kneeling.jpeg
+    title: "kneeling"
+    caption: "Here I'm working on our VHF radar system, used for imaging the upper snow and firn layers of the glacier."
+    alt: "Liam kneels by radar sled."
+
+
