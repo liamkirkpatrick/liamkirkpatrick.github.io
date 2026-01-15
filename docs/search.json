@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "What’s New & Updated",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nHercules Dome\n\n\n\n\n\n\nfieldwork\n\n\n\n2022-23 Hercules Dome Field Season Post\n\n\n\n\n\nJan 15, 2023\n\n\nLiam Kirkpatrick\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html",
@@ -93,30 +93,30 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Quarto Academic, PhD",
+    "title": "Liam Kirkpatrick",
     "section": "",
-    "text": "Lab\n  \n  \n    \n     Uprofile\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n\n  \n  \nI’m a Quarto Academeic Website Template adapted by Dr. Gang He.\nI’m a template that you can fork to build your own website with easy adaptation and deployment.\n\nStar this repository to bookmark it for future reference.\n\nFork this repository and rename it to YourGitHubUserName.github.io.\n\nUpdate the _quarto.yml file to configure your site’s basic settings.\n\nAdd or edit content in the following files and folders:\n\n/posts/ – posts about publications, news, events\n\nteaching.qmd – teaching information\n\nprojects.yml – research or other projects\n\npeople.qmd and /people/ – team or collaborators\n\n/files/ - profiles, images, pdfs, and includes\n\nRender and preview your site locally.\n\nPublish your site using GitHub Pages (make sure configuring your GitHub repository to publish from the docs directory, not the root folder).\nRefine and polish your content and design as needed.\n\n✅ Enjoy your new website!\n\n\n\n\nResearcher, Univerisity\n\n\n\n\n\nPhD, Univerisity"
+    "text": "Uprofile\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nWelcome to my personal website.\nI’m Liam Kirkpatrick, a climate and glaciology PhD cantidaate currently studying in the Department of Earth and Space Sciences at the University of Washington. My interests lie at the intersection of climate science, data science, and engineering. My research is focused on what ice cores can tell us about climate before we could systematically observe the weather, and how these lessons can be applied to better understand the future of our climate system.\nI’ve made this site to share a bit about myself and my research. My goal is to write about my fieldwork and research projects in an accessible and fun way, while also sharing images of the incredible places my research takes me. I’m excited to answer questions or engage in discussion with anyone interested in any aspect of this work!\n\n\n\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "Quarto Academic, PhD",
+    "title": "Liam Kirkpatrick",
     "section": "",
     "text": "Researcher, Univerisity"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Quarto Academic, PhD",
+    "title": "Liam Kirkpatrick",
     "section": "",
     "text": "PhD, Univerisity"
   },
   {
     "objectID": "index.html#recent-posts",
     "href": "index.html#recent-posts",
-    "title": "Quarto Academic, PhD",
-    "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\nJun 24, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+    "title": "Liam Kirkpatrick",
+    "section": "",
+    "text": "Check out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
   },
   {
     "objectID": "people.html",
@@ -138,5 +138,26 @@
     "title": "People",
     "section": "Alumni",
     "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html#published-work",
+    "href": "publications.html#published-work",
+    "title": "Publications",
+    "section": "Published Work",
+    "text": "Published Work"
+  },
+  {
+    "objectID": "posts/herc_dome/index.html",
+    "href": "posts/herc_dome/index.html",
+    "title": "Hercules Dome",
+    "section": "",
+    "text": "I was lucky to join a 4-person team on the ’22-’23 Hercules Dome field season. This season represented the final year of geophysical surveys identifying an ice core drilling project at Hercules Dome.\nThe broad goal of this project is to drill an ice core which will provide a history of the West Antarctic Ice Sheet, and so also of sea level rise. The last interglacial, a time period a little over 100,000 years ago, is the last opportunity to study how the West Antarctic Ice Sheet responds to warmer global temperatures. Some evidence indicates that the ice sheet may have almost completely collapsed durring the last interglacial, which would have massive impacts on sea level rise. Verifying this would help us understand the risk of changes over this and future centuries.\nAn ice core record could provide really great insights into the extent of this region of Antarctica in this warm period. However, it’s very tricky to find a site that holds that very old ice, remaining stable even if the West Antarctic Ice Sheet were to collapse, while also remaining close enough to carry clear signals of what happens in the West Antarctic. Hercules Dome is that magic site - (stable) beachfront property if the West Antarctic collapsed. If you’re interested in this project, I urge you to check out the Hercules Dome project website.\nOur goal this year was to go from a general sense of where to drill, to specifying the exact spot an ice core should go. Additionally, we were hoping to improve our broader understanding of ice dynamics in the reason.\nTo do this, we employed a range of radar technologies. We used a HF radar system, broadcasting at 3 MHz, to image deep ice layers and the bedrock at ~1700 m depth. A shallow VHF radar system (100-200 MHz) allowed us to visualize layers in the upper 100 m, understanding snow accumulation variations in the region. Finally, a phase sensitive radar system (aPRES) allowed us to very accurately identify the depth of layers at point locations. By comparing these measurements with those from previous years in the exact same spot, we are able to calculate the vertical velocity (compaction rates) of the ice at different depths. By putting these systems together, we are able to build a fairly comprehensive understanding of the ice flow in the region. Critically, this should give us the best odds of drilling a successful ice core which achieves the desired temporal scale.\nThe core of our team was four scientists. Myself, a fellow UW PhD student, a PhD student from the University of Maine, and my advisor (a UW professor). However, it took more than the four of us to get the job done. We were joined by a field safety coordinator from the US Antarctic Program, and two pilots and a mechanic from Ken Borek Air, who operated the Twin Otter we used to get to and from Hercules Dome each day.\nThe original plan was to spend a month camping at Hercules Dome, but COVID outbreaks resulted in significant delays and logistical interruptions. Our plan ended up settling on almost four weeks of day trips to Hercules Dome, from the US-run base at the South Pole. With weather delays, this did limit our time on the ground, but we were happy to still have an opportunity to do our science amid such a difficult year for Antarctic research.\nBelow are some of my favorite photos from the season. Some were taken by me, but the majority were by Kelsey Kushneryk, one of our pilots and an incredible photographer."
+  },
+  {
+    "objectID": "publications.html#publications",
+    "href": "publications.html#publications",
+    "title": "Publications",
+    "section": "Publications",
+    "text": "Publications\nK"
   }
 ]

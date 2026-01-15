@@ -6,19 +6,12 @@ title-block-banner: false
 
 <center>
 
-**Quarto Academic**
+Questions about my research, fieldwork, or anything else? 
 
-School
+You can reach me at my [email](liamkp@uw.edu). 
 
-College
-
-University
-
-Address: 
-
-Phone: 
-
-E-mail: 
+I look forward to hearing from you!
 
 
 </center>
+

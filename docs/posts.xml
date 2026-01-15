@@ -5,36 +5,36 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Quarto Academic</title>
-<link>https://drganghe.github.io/quarto-academic-website-template/posts.html</link>
-<atom:link href="https://drganghe.github.io/quarto-academic-website-template/posts.xml" rel="self" type="application/rss+xml"/>
-<description>Quarto Academic Website Template adapted by Dr. Gang He</description>
+<title>Liam Kirkpatrick</title>
+<link>https://liamkirkpatrick.github.io/posts.html</link>
+<atom:link href="https://liamkirkpatrick.github.io/posts.xml" rel="self" type="application/rss+xml"/>
+<description>Liam Kirkpatrick&#39;s Personal Website</description>
 <image>
 <url>https://quarto.org/quarto.png</url>
-<title>Quarto Academic</title>
-<link>https://drganghe.github.io/quarto-academic-website-template/posts.html</link>
+<title>Liam Kirkpatrick</title>
+<link>https://liamkirkpatrick.github.io/posts.html</link>
 </image>
-<generator>quarto-1.7.22</generator>
-<lastBuildDate>Tue, 15 Oct 2024 04:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Tue, 15 Oct 2024 07:00:00 GMT</lastBuildDate>
 <item>
   <title>Quarto Academic Website Examples and Tips</title>
-  <link>https://drganghe.github.io/quarto-academic-website-template/</link>
+  <link>https://liamkirkpatrick.github.io/</link>
   <description>Examples and tips for Quarto Academic Website</description>
   <category>news</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/</guid>
-  <pubDate>Tue, 15 Oct 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://liamkirkpatrick.github.io/</guid>
+  <pubDate>Tue, 15 Oct 2024 07:00:00 GMT</pubDate>
+  <media:content url="https://liamkirkpatrick.github.io/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Event item</title>
   <dc:creator>Event </dc:creator>
-  <link>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/</link>
+  <link>https://liamkirkpatrick.github.io/posts/event-title/</link>
   <description><![CDATA[ 
 
 
 
 
-<p><a href="https://drganghe.github.io/quarto-academic-website-template/"><img src="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder2.JPG" class="img-fluid" style="width:90.0%"></a></p>
+<p><a href="https://drganghe.github.io/quarto-academic-website-template/"><img src="https://liamkirkpatrick.github.io/files/images/placeholder2.JPG" class="img-fluid" style="width:90.0%"></a></p>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
@@ -51,14 +51,14 @@ https://quarto.org/docs/authoring/includes.html
  ]]></description>
   <category>event</category>
   <category>presentation</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/</guid>
-  <pubDate>Tue, 03 Sep 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder2.JPG" medium="image"/>
+  <guid>https://liamkirkpatrick.github.io/posts/event-title/</guid>
+  <pubDate>Tue, 03 Sep 2024 07:00:00 GMT</pubDate>
+  <media:content url="https://liamkirkpatrick.github.io/files/images/placeholder2.JPG" medium="image"/>
 </item>
 <item>
   <title>News item</title>
   <dc:creator>News </dc:creator>
-  <link>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/</link>
+  <link>https://liamkirkpatrick.github.io/posts/news-title/</link>
   <description><![CDATA[ 
 
 
@@ -83,16 +83,52 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <category>news</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/</guid>
-  <pubDate>Mon, 24 Jun 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder3.JPG" medium="image"/>
+  <guid>https://liamkirkpatrick.github.io/posts/news-title/</guid>
+  <pubDate>Mon, 24 Jun 2024 07:00:00 GMT</pubDate>
+  <media:content url="https://liamkirkpatrick.github.io/files/images/placeholder3.JPG" medium="image"/>
+</item>
+<item>
+  <title>Hercules Dome</title>
+  <dc:creator>Liam Kirkpatrick</dc:creator>
+  <link>https://liamkirkpatrick.github.io/posts/herc_dome/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I was lucky to join a 4-person team on the ’22-’23 Hercules Dome field season. This season represented the final year of geophysical surveys identifying an ice core drilling project at Hercules Dome.</p>
+<p>The broad goal of this project is to drill an ice core which will provide a history of the West Antarctic Ice Sheet, and so also of sea level rise. The last interglacial, a time period a little over 100,000 years ago, is the last opportunity to study how the West Antarctic Ice Sheet responds to warmer global temperatures. Some evidence indicates that the ice sheet may have almost completely collapsed durring the last interglacial, which would have massive impacts on sea level rise. Verifying this would help us understand the risk of changes over this and future centuries.</p>
+<p>An ice core record could provide really great insights into the extent of this region of Antarctica in this warm period. However, it’s very tricky to find a site that holds that very old ice, remaining stable even if the West Antarctic Ice Sheet were to collapse, while also remaining close enough to carry clear signals of what happens in the West Antarctic. Hercules Dome is that magic site - (stable) beachfront property if the West Antarctic collapsed. If you’re interested in this project, I urge you to check out the Hercules Dome project website.</p>
+<p>Our goal this year was to go from a general sense of where to drill, to specifying the exact spot an ice core should go. Additionally, we were hoping to improve our broader understanding of ice dynamics in the reason.</p>
+<p>To do this, we employed a range of radar technologies. We used a HF radar system, broadcasting at 3 MHz, to image deep ice layers and the bedrock at ~1700 m depth. A shallow VHF radar system (100-200 MHz) allowed us to visualize layers in the upper 100 m, understanding snow accumulation variations in the region. Finally, a phase sensitive radar system (aPRES) allowed us to very accurately identify the depth of layers at point locations. By comparing these measurements with those from previous years in the exact same spot, we are able to calculate the vertical velocity (compaction rates) of the ice at different depths. By putting these systems together, we are able to build a fairly comprehensive understanding of the ice flow in the region. Critically, this should give us the best odds of drilling a successful ice core which achieves the desired temporal scale.</p>
+<p>The core of our team was four scientists. Myself, a fellow UW PhD student, a PhD student from the University of Maine, and my advisor (a UW professor). However, it took more than the four of us to get the job done. We were joined by a field safety coordinator from the US Antarctic Program, and two pilots and a mechanic from Ken Borek Air, who operated the Twin Otter we used to get to and from Hercules Dome each day.</p>
+<p>The original plan was to spend a month camping at Hercules Dome, but COVID outbreaks resulted in significant delays and logistical interruptions. Our plan ended up settling on almost four weeks of day trips to Hercules Dome, from the US-run base at the South Pole. With weather delays, this did limit our time on the ground, but we were happy to still have an opportunity to do our science amid such a difficult year for Antarctic research.</p>
+<p>Below are some of my favorite photos from the season. Some were taken by me, but the majority were by Kelsey Kushneryk, one of our pilots and an incredible photographer.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>fieldwork</category>
+  <guid>https://liamkirkpatrick.github.io/posts/herc_dome/</guid>
+  <pubDate>Sun, 15 Jan 2023 08:00:00 GMT</pubDate>
+  <media:content url="https://liamkirkpatrick.github.io/post_files/post_images/hercules_dome/IMG_9347.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Can quantum-mechanical description of physical reality be considered complete?</title>
   <dc:creator>Albert Einstein</dc:creator>
   <dc:creator>Boris Podolsky</dc:creator>
   <dc:creator>Nathan Rosen</dc:creator>
-  <link>https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/</link>
+  <link>https://liamkirkpatrick.github.io/posts/paper-title/</link>
   <description><![CDATA[ 
 
 
@@ -145,9 +181,9 @@ Quantum-Mechanical Description of Physical Reality Be Considered
 Complete?”</span> <em>Physical Review</em> 47 (7938): 777–80. <a href="https://doi.org/10.1103/PhysRev.47.777">https://doi.org/10.1103/PhysRev.47.777</a>.
 </div></div></section></div> ]]></description>
   <category>paper</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/</guid>
-  <pubDate>Wed, 15 May 1935 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://liamkirkpatrick.github.io/posts/paper-title/</guid>
+  <pubDate>Wed, 15 May 1935 08:00:00 GMT</pubDate>
+  <media:content url="https://liamkirkpatrick.github.io/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
