@@ -1,18 +1,16 @@
 ---
-title: "Allan Hills"
-description: "2024-25 Allan Hills Field Season "
+title: "Denali"
+description: "2022 Denali Field Season"
 author: "Liam Kirkpatrick"
-date: "2025-01-15"
+date: "2022-06-28"
 categories: [fieldwork]
-image: "/files/images/allan_hills/team.JPG"
+#image: "/files/images/placeholder2.JPG"
+image: "/files/images/denali/placeholder.JPG"
 #css: /custom.css
 #draft: true
 ---
 
-
-
-
-<div class="q-gallery" data-gallery="/files/images/allan_hills/allan_hills.yml"></div>
+<div class="q-gallery" data-gallery="/files/images/denali/denali.yml"></div>
 
 <script>
 (async () => {
