@@ -9,3 +9,4 @@ I started from Dr. Gang He's [quarto academic website template](https://github.c
 ## Requirements
 
 - Install [Quarto](https://quarto.org/docs/get-started/)
+- (suggested) Install [VS Code](https://code.visualstudio.com/) and [GitHub Copilot](https://github.com/features/copilot) - both have streamlined my workflow and been very useful for this project.
