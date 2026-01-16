@@ -1,29 +1,12 @@
-# Quarto Academic Website Template
+# Liam Kirkpatrick's Personal Website
 
-Welcome! This is a simple and customizable template for building your own academic website using [Quarto](https://quarto.org/). You can easily fork, edit, and publish your site with just a few steps.
+Welcome! This github repository holds my personal site. If you're here, I'm assuming you're interested in how I set up my site, and maybe want to fork it yourself. Please reach out if you want my take on this site template, what I've changed, and how it's working out for me.
 
-## 🚀 Quick Start
+You can view the site at [liamkirkpatrick.com](liamkirkpatrick.com) or [liamkirkpatrick.github.io](liamkirkpatrick.github.io). I have a custom URL, which costs $20/yr and I manage through squarespace. I got annoyed with drag/drop editing using squarespace, and have found quarto a much lower effort, higher return approach for website design. It's also allowed me to integrate and share some fun side projects (stay tuned for some in-progress efforts). 
 
-1. **Star** this repository to bookmark it for future reference.  
-1. **Fork** this repository and rename it to `YourGitHubUserName.github.io`.  
-1. **Update** the `_quarto.yml` file to configure your site’s basic settings.  
-1. **Add or edit content** in the following files and folders:
-   - `/posts/` – posts about publications, news, events  
-   - `teaching.qmd` – teaching information  
-   - `projects.yml` – research or other projects  
-   - `people.qmd` and `/people/` – team or collaborators  
-   - `/files/` - profiles, images, pdfs, and includes 
-1. [**Render and preview**](https://quarto.org/docs/websites/) your site locally.  
-1. [**Publish**](https://quarto.org/docs/publishing/github-pages.html) your site using GitHub Pages (make sure [configuring](https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png) your GitHub repository to publish from the `docs` directory, not the `root` folder).  
-1. **Refine and polish** your content and design as needed.  
-1. ✅ Enjoy your new website!
+I started from Dr. Gang He's [quarto academic website template](https://github.com/drganghe/quarto-academic-website-template). It's fantastic and user-friendly.
 
-## 🛠 Requirements
+## Requirements
 
 - Install [Quarto](https://quarto.org/docs/get-started/)
-- Learn the basics from the [official Quarto documentation](https://quarto.org/docs/guide/)
-- Try publishing the site *before* making major changes to confirm it runs correctly
-
-## 📚 More Examples & Tips
-
-- [Quarto Academic Site Examples and Tips](https://drganghe.github.io/quarto-academic-site-examples.html)
+- (suggested) Install [VS Code](https://code.visualstudio.com/) and [GitHub Copilot](https://github.com/features/copilot) - both have streamlined my workflow and been very useful for this project.
