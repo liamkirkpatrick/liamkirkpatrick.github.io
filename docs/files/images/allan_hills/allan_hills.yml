@@ -1,10 +1,18 @@
 id: field-campaign
 show_captions: below   # "below" or "overlay"
 images:
-#  - src: /files/images/herc_dome/benliam.jpg
-#    title: "HF Radar Sled"
-#    caption: "Here I stand with Ben Hills next to our HF radar sled at Hercules Dome, Antarctica."
-#    alt: "Ben and Liam stand beside HF radar sled in Antarctica"
+
+  - src: /files/images/allan_hills/castle.JPG
+    title: "castle"
+    caption: "A fun perspective of Castle Rock, a prominent landmark outside of McMurdo Station, with Mt. Erebus rising in the background."
+    alt: "Castle Rock"
+
+  - src: /files/images/allan_hills/team.JPG
+    title: "team"
+    caption: "Four team members look out over the Allan Hills"
+    alt: "Four team members look out over the Allan Hills"
+
+
 
 
 

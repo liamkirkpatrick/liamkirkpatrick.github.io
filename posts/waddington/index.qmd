@@ -10,8 +10,6 @@ image: "/files/images/waddington/placeholder.jpeg"
 #draft: true
 ---
 
-
-
 <div class="q-gallery" data-gallery="/files/images/waddington/waddington.yml"></div>
 
 <script>

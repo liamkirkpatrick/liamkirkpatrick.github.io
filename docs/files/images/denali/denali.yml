@@ -1,10 +1,40 @@
 id: field-campaign
 show_captions: below   # "below" or "overlay"
 images:
-#  - src: /files/images/herc_dome/benliam.jpg
-#    title: "HF Radar Sled"
-#    caption: "Here I stand with Ben Hills next to our HF radar sled at Hercules Dome, Antarctica."
-#    alt: "Ben and Liam stand beside HF radar sled in Antarctica"
+
+ - src: /files/images/denali/pushing.jpeg
+   title: ""
+   caption: "A month on the glacier means a lot of gear. Here teammate Emma moves a load of food in our ice core box."
+   alt: ""
+ - src: /files/images/denali/skis.JPG
+   title: ""
+   caption: "Camp 1 on our way up the Kahiltna Glacier."
+   alt: ""
+ - src: /files/images/denali/begguya.jpeg
+   title: ""
+   caption: "Headed down from 11k' camp on Denali, back to Kahiltna basecamp and our helicopter flight to Begguya."
+   alt: ""
+ - src: /files/images/denali/skiing.JPG
+   title: ""
+   caption: "More scenes from the descent of the Kahiltna Glacier."
+   alt: ""
+ - src: /files/images/denali/drilling.JPG
+   title: ""
+   caption: "Our drilling and ice core handling setup at 13,000 feet on Beguyya."
+   alt: ""
+ - src: /files/images/denali/grad.JPG
+   title: ""
+   caption: "I graduated college midway throug the field campaign! Here I celebrate halfway through drilling"
+   alt: ""
+ - src: /files/images/denali/apres.JPG
+   title: ""
+   caption: "Teammates Emma and Inga move our DIYed ApRES Phase-sensitive radar system between aquisitions."
+   alt: ""
+ - src: /files/images/denali/team.JPG
+   title: ""
+   caption: "Our full team, waiting for our helicopter ride off the mountain after a successful field campaign!"
+   alt: ""
+
 
 
 
