@@ -1,0 +1,18 @@
+---
+title: "ECM Video for NSF Ice Drilling Program"
+description: "Outreach for NSF Ice Drilling Program"
+author: "Liam Kirkpatrick"
+date: "2024-06-28"
+categories: [media]
+image: "/files/images/idp_video/ecm_scan.png"
+#css: /custom.css
+#draft: true
+---
+
+<!-- imbed youtube video -->
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+	<iframe src="https://www.youtube.com/embed/zyUl1EHrsBg?si=KxPFSsic1xLoSvPd" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
+<!--Include social share buttons-->

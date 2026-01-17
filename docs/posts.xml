@@ -143,6 +143,29 @@ https://quarto.org/docs/authoring/includes.html
   <media:content url="https://liamkirkpatrick.github.io/files/images/allan_hills/team.JPG" medium="image"/>
 </item>
 <item>
+  <title>ECM Video for NSF Ice Drilling Program</title>
+  <dc:creator>Liam Kirkpatrick</dc:creator>
+  <link>https://liamkirkpatrick.github.io/posts/idp_video/</link>
+  <description><![CDATA[ 
+
+
+
+
+<!-- imbed youtube video -->
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+<pre><code>&lt;iframe src="https://www.youtube.com/embed/zyUl1EHrsBg?si=KxPFSsic1xLoSvPd" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"&gt;&lt;/iframe&gt;</code></pre>
+</div>
+<!--Include social share buttons-->
+
+
+
+ ]]></description>
+  <category>media</category>
+  <guid>https://liamkirkpatrick.github.io/posts/idp_video/</guid>
+  <pubDate>Fri, 28 Jun 2024 07:00:00 GMT</pubDate>
+  <media:content url="https://liamkirkpatrick.github.io/files/images/idp_video/ecm_scan.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
+<item>
   <title>Mt. Waddington</title>
   <dc:creator>Liam Kirkpatrick</dc:creator>
   <link>https://liamkirkpatrick.github.io/posts/waddington/</link>
@@ -414,7 +437,6 @@ https://quarto.org/docs/authoring/includes.html
 <p>After two years working with the Denali water isotope record, I was finally able to visit the drill site in person. Our small team of three University of Maine PhD students and myself (an undergraduate at Dartmouth at that point) spent the year working on proposals, grants, and permit requests. By spring, we had permission from the Park Service to work in Denali National Park, commitment of helicopter and ski plane support, $30,000 in funding (all from small grants), and a plan for an incredible month of fieldwork.</p>
 <p>Our team met for a crazy two days in Anchorage buying food and assembling gear. A quick shuttle got us to Talkeetna, and the incredible team at Talkeetna Air Taxi had our ski plane, loaded with gear, sitting at the Denali base camp on the Kahiltna glacier the very next day.</p>
 <p>Our first goal was to acclimate. After a night at base camp, and burying the bulk of our food, we geared up for a lap on Denali’s West Buttress. This famous climbing route is the main path up Denali, North America’s highest mountain. We started from basecamp at ~7000’. Two days on the route got us up to Camp 2 at 11,000’. We traveled at night, as the warm June days softened the snow surface and increased the crevasse hazard. After three nights at 11,000’ we felt strong and ready for the next phase of our trip. It took us two days to ski back to base camp. We used this journey to collect our first scientific data of the trip.</p>
-<p>We had two goals on our descent of the Kahiltna Glacier. The first was to repeat a VHF survey down the Kahiltna glacier, first completed a decade earlier. Doing this allows us to compare the two surveys and to see changes to the snow and firn layers. (“Firn” is a word scientists use to describe snow on a glacier that’s over a year old. It’s still snow-like, but it’s on its way to being compacted into ice deeper down in the glacier). Our second goal was to collect snow surface samples, to undergo water isotope measurements. The ice core on Begguya contains a great high-resolution water isotope record, which I’ve been studying. My idea with these water isotope samples was to collect samples at a variety of heights on Denali, to understand what effect elevation may play in driving the isotope record.</p>
 <p>We had two goals on our descent of the Kahiltna Glacier. The first was to repeat a VHF survey down the Kahiltna glacier, first completed a decade earlier. Doing this allows us to compare the two surveys and to see changes to the snow and firn layers. (“Firn” is a word scientists use to describe snow on a glacier that’s over a year old. It’s still snow-like, but it’s on its way to being compacted into ice deeper down in the glacier). Our second goal was to collect snow surface samples, to undergo water isotope measurements. The ice core on Begguya contains a great high-resolution water isotope record, which I’ve been studying. My idea with these water isotope samples was to collect samples at a variety of heights on Denali, to understand what effect elevation may play in driving the isotope record.</p>
 <p>The core of our work on the plateau was geophysics. The summit plateau is roughy one square kilometer, and we broke this into a 50 m x 50 m grid, marked out with bamboo poles. This let us do a highly detailed radar survey. We employed multiple VHF radar systems to studying the upper layers of snow and firn. We could match ice layers in the ice cores to reflectors in these surveys. HF (high frequency) radar surveys let us improve our understanding of bedrock topography and deep ice layers. And phase sensitive aPRES measurements, completed right after we arrived and then again two weeks later, let us watch the depth of internal layers over time and so calculate how quickly the ice is compacting. Note how quick this is - in polar regions it usually takes years, not weeks, to get enough ice movement to watch vertical deformation. However, the snow accumulation in the Alaska range is dramatically higher, measured in meters per year rather than centimeters in polar regions. The results of this survey were some of the most exciting of the summer.</p>
 <p>While I played a role in deploying the radar systems, my personal goal was to drill a shallow ice core. 20 m of core got us down roughly 5 years, enough to overlap a shallow core drilled in 2019, which in turn overlapped the original 203 m core from 2013. This core brought the record to present. In my proposals to fund this aspect of the project, I discussed how extending the record through to 2022 added significant value to the core. I thought capturing the COVID-19 pandemic was particularly interesting. Recent work with lead isotope measurements allows the identification of lead source regions. I’m excited to see if the ice core record is able to pick up the abrupt changes to global industry through the pandemic - this should be a good test of how our lead pollution proxies preform. I’m also excited to see how the strong 2016 El Nino manifests in sodium and water isotope signals. Even extending the snow accumulation and summer melt records another decade adds major value, as both have seen huge changes over the last decade.</p>
