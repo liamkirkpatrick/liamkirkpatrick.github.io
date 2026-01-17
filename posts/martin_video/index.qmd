@@ -1,0 +1,23 @@
+---
+title: "COLDEX CPL Video"
+description: "Outreach video at Core Proccessing Line"
+author: "Liam Kirkpatrick"
+date: "2024-10-10"
+categories: [media]
+image: "/files/images/paper1/freezer.jpeg"
+#css: /custom.css
+#draft: true
+---
+
+Big thanks to Martin Froger, who put together this fun video about my work at the [COLDEX](coldex.org) core proccessing line in summer 2026. 
+
+<!-- imbed instagram video -->
+
+<div class="instagram-embed">
+  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DPeYp4lEVqb/" data-instgrm-version="14" style="background:#FFF; border:0; margin:1px 0; max-width:540px; width:100%;">
+  </blockquote>
+  <script async src="//www.instagram.com/embed.js"></script>
+</div>
+
+<!--Include social share buttons-->
+{{< include /files/includes/_socialshare.qmd >}}

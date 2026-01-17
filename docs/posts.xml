@@ -143,6 +143,41 @@ https://quarto.org/docs/authoring/includes.html
   <media:content url="https://liamkirkpatrick.github.io/files/images/allan_hills/team.JPG" medium="image"/>
 </item>
 <item>
+  <title>COLDEX CPL Video</title>
+  <dc:creator>Liam Kirkpatrick</dc:creator>
+  <link>https://liamkirkpatrick.github.io/posts/martin_video/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Big thanks to Martin Froger, who put together this fun video about my work at the <a href="coldex.org">COLDEX</a> core proccessing line in summer 2026.</p>
+<!-- imbed instagram video -->
+<div class="instagram-embed">
+<blockquote class="instagram-media blockquote" data-instgrm-permalink="https://www.instagram.com/p/DPeYp4lEVqb/" data-instgrm-version="14" style="background:#FFF; border:0; margin:1px 0; max-width:540px; width:100%;">
+</blockquote>
+<script async="" src="//www.instagram.com/embed.js"></script>
+</div>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>media</category>
+  <guid>https://liamkirkpatrick.github.io/posts/martin_video/</guid>
+  <pubDate>Thu, 10 Oct 2024 07:00:00 GMT</pubDate>
+  <media:content url="https://liamkirkpatrick.github.io/files/images/paper1/freezer.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Paper: Three-dimensional Multitrack Electrical Conductivity Method</title>
   <dc:creator>Liam Kirkpatrick</dc:creator>
   <link>https://liamkirkpatrick.github.io/posts/paper1/</link>
@@ -195,10 +230,12 @@ https://quarto.org/docs/authoring/includes.html
 
 
 
-<!-- imbed youtube video -->
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
-<pre><code>&lt;iframe src="https://www.youtube.com/embed/zyUl1EHrsBg?si=KxPFSsic1xLoSvPd" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"&gt;&lt;/iframe&gt;</code></pre>
-</div>
+<p>I put together this fun explainer on my work for an educational program by the <a href="https://icedrill.org">NSF Ice Drilling Program</a>.</p>
+<!-- <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+    <iframe src="https://www.youtube.com/embed/zyUl1EHrsBg?si=KxPFSsic1xLoSvPd" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div> -->
+<iframe width="700" height="394" src="https://www.youtube.com/embed/zyUl1EHrsBg?si=Maubz-jS8ZFcf5Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
 <!--Include social share buttons-->
 
 
@@ -333,7 +370,7 @@ https://quarto.org/docs/authoring/includes.html
   <category>fieldwork</category>
   <guid>https://liamkirkpatrick.github.io/posts/waddington/</guid>
   <pubDate>Sun, 25 Jun 2023 07:00:00 GMT</pubDate>
-  <media:content url="https://liamkirkpatrick.github.io/files/images/waddington/placeholder.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="https://liamkirkpatrick.github.io/files/images/waddington/skking.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Hercules Dome</title>

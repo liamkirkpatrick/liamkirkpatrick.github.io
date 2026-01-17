@@ -4,8 +4,7 @@ description: "2023 Mt. Waddington Field Season"
 author: "Liam Kirkpatrick"
 date: "2023-06-25"
 categories: [fieldwork]
-#image: "/files/images/placeholder2.JPG"
-image: "/files/images/waddington/placeholder.jpeg"
+image: "/files/images/waddington/skking.jpeg"
 #css: /custom.css
 #draft: true
 ---
