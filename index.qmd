@@ -23,6 +23,10 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/liam-r-kirkpatrick/
       target: _blank
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/kirkpatrick.liam/
+      target: _blank
     - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
       href: https://orcid.org/0000-0002-6476-5331
       target: _blank
@@ -55,7 +59,7 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 
 Welcome to my personal website.
 
-I’m Liam Kirkpatrick, a climate and glaciology PhD cantidaate currently studying in the Department of Earth and Space Sciences at the University of Washington. My interests lie at the intersection of climate science, data science, and engineering. My research is focused on what ice cores can tell us about climate before we could systematically observe the weather, and how these lessons can be applied to better understand the future of our climate system. 
+I’m Liam Kirkpatrick, a climate and glaciology PhD cantidate currently studying in the Department of Earth and Space Sciences at the University of Washington. My interests lie at the intersection of climate science, data science, and engineering. My research is focused on what ice cores can tell us about climate before we could systematically observe the weather, and how these lessons can be applied to better understand the future of our climate system. 
 
 I’ve made this site to share a bit about myself and my research. My goal is to write about my fieldwork and research projects in an accessible and fun way, while also sharing images of the incredible places my research takes me. I’m excited to answer questions or engage in discussion with anyone interested in any aspect of this work!
 
@@ -63,7 +67,7 @@ I’ve made this site to share a bit about myself and my research. My goal is to
 
 <!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
 ## Recent Posts
-Check out my latest &nbsp;[First-Author Publications](posts.qmd#category=publication)&nbsp;, &nbsp;[Fieldwork Stories](posts.qmd#category=news)&nbsp;, &nbsp;[Media](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
+Check out my latest &nbsp;[First-Author Publications](posts.qmd#category=publication)&nbsp;, &nbsp;[Fieldwork Stories](posts.qmd#category=fieldwork)&nbsp;, &nbsp;[Media](posts.qmd#category=media)&nbsp;, and &nbsp;[More »](/posts.qmd)
 
 :::{#recent-posts}
 :::
