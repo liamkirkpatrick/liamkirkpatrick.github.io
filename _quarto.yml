@@ -34,7 +34,7 @@ website:
 
     right: 
       - text: CV
-        href: files/nsf-biosketch.pdf
+        href: /404.html
       - icon: github
         href: https://github.com/liamkirkpatrick
         target: _blank    

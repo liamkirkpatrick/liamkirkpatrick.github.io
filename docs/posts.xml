@@ -15,7 +15,55 @@
 <link>https://liamkirkpatrick.github.io/posts.html</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Wed, 15 Jan 2025 08:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 27 Aug 2025 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Paper: Three-dimensional Multitrack Electrical Conductivity Method</title>
+  <dc:creator>Liam Kirkpatrick</dc:creator>
+  <link>https://liamkirkpatrick.github.io/posts/paper1/</link>
+  <description><![CDATA[ 
+
+
+
+
+<!-- imbed youtube video -->
+<p>The first paper of my PhD has hit the press!</p>
+<!-- Add a photo with caption: update the path and caption as needed -->
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://liamkirkpatrick.github.io/files/images/paper1/freezer.jpeg" class="img-fluid figure-img" style="width:70.0%" alt="Freezer_Time"></p>
+<figcaption>3D ECM scan of an ice core</figcaption>
+</figure>
+</div>
+<p>This paper describes a new method I developed over the first two years of my PhD. Three-dimensional Multitrack Electrical Conductivity Measurements (3D ECM) enables non-destructive three-dimensional constraints on ice core layering. It is best suited to large diameter ice cores (e.g.&nbsp;the 241 mm Blue Ice Drill system used in the paper), although ongoing work shows we can apply it down to cores as small as 3”.</p>
+<p>In a first application of this 3D ECM, we study the layering in the upper portion of two cores from the Allan Hills reigon. We find layering at 29° from horizontal in the ALHIC2201 core, and 69° from horizontal in the ALHIC2302 core. We show that this layering is generally consistent over the full depth range measured, with a gradual trend towards steeper layering at the surface. This suggests that layer orientations are likely driven by the bed geometry, not localized, meter-scale folding.</p>
+<!-- Add a photo with caption: update the path and caption as needed -->
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://liamkirkpatrick.github.io/files/images/paper1/fig3.png" class="img-fluid figure-img" style="width:70.0%" alt="3D ECM scan"></p>
+<figcaption>3D ECM scan of an ice core</figcaption>
+</figure>
+</div>
+<p>This paper provides the basis for multiple ongoing projects. For my next paper (expected to hit the press in summer 2026), I led the effort to apply 3D ECM to re-thinking our approach to sampling ice cores from blue ice areas with complex stratigraphy. Stay tuned for more!</p>
+<hr class="page-bar">
+<header>
+Abstract
+</header>
+<p>Recent ice cores from the Allan Hills, a blue ice area in Antarctica, are nearly 3 million years old. These cores extend ice core chronologies, enabling new insight into key climate periods such as the Mid-Pleistocene Transition. The interpretation of these climate records is complex because of the disturbed stratigraphy in this ice. Here, we present a new three-dimensional multitrack electrical conductivity measurement method (3D ECM) to resolve layer structure. We demonstrate this technique on a cumulative 60 m of two large-diameter (241 mm) ice cores, ALHIC2201 and ALHIC2302. Measurements were taken on the upper section of both cores due to better ice core quality in this shallow ice. We find well-defined and dipping layering in both cores, averaging 29° in ALHIC2201 and 69° in ALHIC2302 from horizontal. We observe a slight decrease in dip with depth in both cores, although it only achieves statistical significance in ALHIC2302. We discuss how this new method can be applied to enable accurate, high-resolution multi-proxy record development even in ice cores with steeply dipping layers. 3D ECM improves interpretation of blue ice area cores by providing accurate, non-destructive constraints on stratigraphy.</p>
+<hr class="page-bar">
+<header>
+Access
+</header>
+<p>You can read the paper at the <a href="https://resolve.cambridge.org/core/journals/journal-of-glaciology/article/threedimensional-multitrack-electrical-conductivity-method-for-interpretation-of-complex-ice-core-stratigraphy/447C0E7C3F8BA7D7D737B77A46C98DF0">Journal of Glaciology</a>. Please reach out with any access issues and I’ll help you get a pdf copy.</p>
+<!--Include social share buttons-->
+
+
+
+ ]]></description>
+  <category>publication</category>
+  <guid>https://liamkirkpatrick.github.io/posts/paper1/</guid>
+  <pubDate>Wed, 27 Aug 2025 07:00:00 GMT</pubDate>
+  <media:content url="https://liamkirkpatrick.github.io/files/images/paper1/fig3.png" medium="image" type="image/png" height="112" width="144"/>
+</item>
 <item>
   <title>Allan Hills</title>
   <dc:creator>Liam Kirkpatrick</dc:creator>
@@ -178,50 +226,6 @@ https://quarto.org/docs/authoring/includes.html
   <media:content url="https://liamkirkpatrick.github.io/files/images/paper1/freezer.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Paper: Three-dimensional Multitrack Electrical Conductivity Method</title>
-  <dc:creator>Liam Kirkpatrick</dc:creator>
-  <link>https://liamkirkpatrick.github.io/posts/paper1/</link>
-  <description><![CDATA[ 
-
-
-
-
-<!-- imbed youtube video -->
-<p>The first paper of my PhD has hit the press!</p>
-<!-- Add a photo with caption: update the path and caption as needed -->
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://liamkirkpatrick.github.io/files/images/paper1/freezer.jpeg" class="img-fluid figure-img" style="width:70.0%" alt="Freezer_Time"></p>
-<figcaption>3D ECM scan of an ice core</figcaption>
-</figure>
-</div>
-<p>This paper describes a new method I developed over the first two years of my PhD. Three-dimensional Multitrack Electrical Conductivity Measurements (3D ECM) enables non-destructive three-dimensional constraints on ice core layering. It is best suited to large diameter ice cores (e.g.&nbsp;the 241 mm Blue Ice Drill system used in the paper), although ongoing work shows we can apply it down to cores as small as 3”.</p>
-<p>In a first application of this 3D ECM, we study the layering in the upper portion of two cores from the Allan Hills reigon. We find layering at 29° from horizontal in the ALHIC2201 core, and 69° from horizontal in the ALHIC2302 core. We show that this layering is generally consistent over the full depth range measured, with a gradual trend towards steeper layering at the surface. This suggests that layer orientations are likely driven by the bed geometry, not localized, meter-scale folding.</p>
-<!-- Add a photo with caption: update the path and caption as needed -->
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://liamkirkpatrick.github.io/files/images/paper1/fig3.png" class="img-fluid figure-img" style="width:70.0%" alt="3D ECM scan"></p>
-<figcaption>3D ECM scan of an ice core</figcaption>
-</figure>
-</div>
-<p>This paper provides the basis for multiple ongoing projects. For my next paper (expected to hit the press in summer 2026), I led the effort to apply 3D ECM to re-thinking our approach to sampling ice cores from blue ice areas with complex stratigraphy. Stay tuned for more!</p>
-<hr class="page-bar">
-<p>** Abstract **</p>
-<p>Recent ice cores from the Allan Hills, a blue ice area in Antarctica, are nearly 3 million years old. These cores extend ice core chronologies, enabling new insight into key climate periods such as the Mid-Pleistocene Transition. The interpretation of these climate records is complex because of the disturbed stratigraphy in this ice. Here, we present a new three-dimensional multitrack electrical conductivity measurement method (3D ECM) to resolve layer structure. We demonstrate this technique on a cumulative 60 m of two large-diameter (241 mm) ice cores, ALHIC2201 and ALHIC2302. Measurements were taken on the upper section of both cores due to better ice core quality in this shallow ice. We find well-defined and dipping layering in both cores, averaging 29° in ALHIC2201 and 69° in ALHIC2302 from horizontal. We observe a slight decrease in dip with depth in both cores, although it only achieves statistical significance in ALHIC2302. We discuss how this new method can be applied to enable accurate, high-resolution multi-proxy record development even in ice cores with steeply dipping layers. 3D ECM improves interpretation of blue ice area cores by providing accurate, non-destructive constraints on stratigraphy.</p>
-<hr class="page-bar">
-<p>** Access **</p>
-<p>You can read the paper at the <a href="https://resolve.cambridge.org/core/journals/journal-of-glaciology/article/threedimensional-multitrack-electrical-conductivity-method-for-interpretation-of-complex-ice-core-stratigraphy/447C0E7C3F8BA7D7D737B77A46C98DF0">Journal of Glaciology</a>. Please reach out with any access issues and I’ll help you get a pdf copy.</p>
-<!--Include social share buttons-->
-
-
-
- ]]></description>
-  <category>publication</category>
-  <guid>https://liamkirkpatrick.github.io/posts/paper1/</guid>
-  <pubDate>Tue, 27 Aug 2024 07:00:00 GMT</pubDate>
-  <media:content url="https://liamkirkpatrick.github.io/files/images/paper1/fig3.png" medium="image" type="image/png" height="112" width="144"/>
-</item>
-<item>
   <title>ECM Video for NSF Ice Drilling Program</title>
   <dc:creator>Liam Kirkpatrick</dc:creator>
   <link>https://liamkirkpatrick.github.io/posts/idp_video/</link>
@@ -231,9 +235,6 @@ https://quarto.org/docs/authoring/includes.html
 
 
 <p>I put together this fun explainer on my work for an educational program by the <a href="https://icedrill.org">NSF Ice Drilling Program</a>.</p>
-<!-- <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
-    <iframe src="https://www.youtube.com/embed/zyUl1EHrsBg?si=KxPFSsic1xLoSvPd" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
-</div> -->
 <iframe width="700" height="394" src="https://www.youtube.com/embed/zyUl1EHrsBg?si=Maubz-jS8ZFcf5Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
 <!--Include social share buttons-->
@@ -370,7 +371,7 @@ https://quarto.org/docs/authoring/includes.html
   <category>fieldwork</category>
   <guid>https://liamkirkpatrick.github.io/posts/waddington/</guid>
   <pubDate>Sun, 25 Jun 2023 07:00:00 GMT</pubDate>
-  <media:content url="https://liamkirkpatrick.github.io/files/images/waddington/skking.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="https://liamkirkpatrick.github.io/files/images/waddington/skiing.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Hercules Dome</title>

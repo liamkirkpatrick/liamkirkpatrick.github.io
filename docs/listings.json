@@ -2,9 +2,9 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/paper1/index.html",
       "/posts/allan_hills/index.html",
       "/posts/martin_video/index.html",
-      "/posts/paper1/index.html",
       "/posts/idp_video/index.html",
       "/posts/waddington/index.html",
       "/posts/herc_dome/index.html",
@@ -15,9 +15,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/paper1/index.html",
       "/posts/allan_hills/index.html",
       "/posts/martin_video/index.html",
-      "/posts/paper1/index.html",
       "/posts/idp_video/index.html",
       "/posts/waddington/index.html",
       "/posts/herc_dome/index.html",
