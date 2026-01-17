@@ -27,10 +27,10 @@ website:
         menu:
           - text: Fieldwork
             href: posts.qmd#category=fieldwork   
-      - text: Outreach
-        menu:        
-        - text: Presentations
-          href: posts.qmd#category=presentation                   
+          - text: Selected Publications
+            href: posts.qmd#category=publication
+          - text: Media
+            href: posts.qmd#category=media                  
 
     right: 
       - text: CV

@@ -1,0 +1,43 @@
+---
+title: "Paper: Three-dimensional Multitrack Electrical Conductivity Method"
+description: "The first paper from my dissertation"
+author: "Liam Kirkpatrick"
+date: "2024-08-27"
+categories: [publication]
+image: "/files/images/paper1/fig3.png"
+css: /custom.css
+#draft: true
+---
+
+<!-- imbed youtube video -->
+
+
+
+The first paper of my PhD has hit the press!
+
+<!-- Add a photo with caption: update the path and caption as needed -->
+![3D ECM scan of an ice core](/files/images/paper1/freezer.jpeg){fig-alt="Freezer_Time" fig-cap="The project required long hours fiddling with stiff cables and cold bolts at -25 °C" width="70%"}
+
+This paper describes a new method I developed over the first two years of my PhD. Three-dimensional Multitrack Electrical Conductivity Measurements (3D ECM) enables non-destructive three-dimensional constraints on ice core layering. It is best suited to large diameter ice cores (e.g. the 241 mm Blue Ice Drill system used in the paper), although ongoing work shows we can apply it down to cores as small as 3".
+
+In a first application of this 3D ECM, we study the layering in the upper portion of two cores from the Allan Hills reigon. We find layering at 29° from horizontal in the ALHIC2201 core, and 69° from horizontal in the ALHIC2302 core. We show that this layering is generally consistent over the full depth range measured, with a gradual trend towards steeper layering at the surface. This suggests that layer orientations are likely driven by the bed geometry, not localized, meter-scale folding.
+
+<!-- Add a photo with caption: update the path and caption as needed -->
+![3D ECM scan of an ice core](/files/images/paper1/fig3.png){fig-alt="3D ECM scan" fig-cap="3D ECM scan showing layering in the ALHIC2201 ice core." width="70%"}
+
+This paper provides the basis for multiple ongoing projects. For my next paper (expected to hit the press in summer 2026), I led the effort to apply 3D ECM to re-thinking our approach to sampling ice cores from blue ice areas with complex stratigraphy. Stay tuned for more!
+
+
+<hr class="page-bar" />
+
+** Abstract **
+
+Recent ice cores from the Allan Hills, a blue ice area in Antarctica, are nearly 3 million years old. These cores extend ice core chronologies, enabling new insight into key climate periods such as the Mid-Pleistocene Transition. The interpretation of these climate records is complex because of the disturbed stratigraphy in this ice. Here, we present a new three-dimensional multitrack electrical conductivity measurement method (3D ECM) to resolve layer structure. We demonstrate this technique on a cumulative 60 m of two large-diameter (241 mm) ice cores, ALHIC2201 and ALHIC2302. Measurements were taken on the upper section of both cores due to better ice core quality in this shallow ice. We find well-defined and dipping layering in both cores, averaging 29° in ALHIC2201 and 69° in ALHIC2302 from horizontal. We observe a slight decrease in dip with depth in both cores, although it only achieves statistical significance in ALHIC2302. We discuss how this new method can be applied to enable accurate, high-resolution multi-proxy record development even in ice cores with steeply dipping layers. 3D ECM improves interpretation of blue ice area cores by providing accurate, non-destructive constraints on stratigraphy.
+
+<hr class="page-bar" />
+
+** Access **
+
+You can read the paper at the [Journal of Glaciology](https://resolve.cambridge.org/core/journals/journal-of-glaciology/article/threedimensional-multitrack-electrical-conductivity-method-for-interpretation-of-complex-ice-core-stratigraphy/447C0E7C3F8BA7D7D737B77A46C98DF0). Please reach out with any access issues and I'll help you get a pdf copy. 
+
+<!--Include social share buttons-->
