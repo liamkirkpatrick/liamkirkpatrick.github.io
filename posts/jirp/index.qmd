@@ -10,6 +10,10 @@ image: "/files/images/jirp/placeholder.jpeg"
 #draft: true
 ---
 
+The Juneau Icefield Research Program (JIRP)  was my first opportunity to combine science with mountaineering skills. I picked up a range of new glaciology skills, from coding to ice coring to glacial travel. Years later, I am still amazed by how much of my work since has relied on the foundation of skills I developed at JIRP. I strongly recommend the program to anybody (between high school and a PhD) considering getting more involved in polar science. Check out the [JIRP website](https://www.juneauicefield.org) and [Instagram](https://www.instagram.com/juneauicefieldresearchprogram/) to learn more!
+
+Here’s a collection of my favorite photos and moments from the summer. 
+
 <div class="q-gallery" data-gallery="/files/images/jirp/jirp.yml"></div>
 
 <script>
