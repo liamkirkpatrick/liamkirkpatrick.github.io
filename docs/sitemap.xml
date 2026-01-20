@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>www.liamkirkpatrick.com/cv.html</loc>
-    <lastmod>2026-01-20T23:16:15.732Z</lastmod>
+    <lastmod>2026-01-20T23:26:21.684Z</lastmod>
   </url>
   <url>
     <loc>www.liamkirkpatrick.com/publications.html</loc>
@@ -51,5 +51,9 @@
   <url>
     <loc>www.liamkirkpatrick.com/posts.html</loc>
     <lastmod>2026-01-15T06:07:03.137Z</lastmod>
+  </url>
+  <url>
+    <loc>liamkirkpatrick.com/index.html</loc>
+    <lastmod>2026-01-20T21:37:48.287Z</lastmod>
   </url>
 </urlset>

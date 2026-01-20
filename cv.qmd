@@ -171,21 +171,21 @@ pubs = read_csv("publications.csv")
 print(render_entries(pubs, kind="publications"))
 ```
 
-## presentations
+## Selected Presentations
 ```{python}
 #| output: asis
 pres = read_csv("presentations.csv")
 print(render_entries(pres, kind="presentations"))
 ```
 
-## grants
+## Grants
 ```{python}
 #| output: asis
 grants = read_csv("grants.csv")
 print(render_entries(grants, kind="grants"))
 ```
 
-## mentorship
+## Mentorship
 ```{python}
 #| output: asis
 ment = read_csv("mentorship.csv")
@@ -193,6 +193,13 @@ print(render_entries(ment, kind="mentorship"))
 ```
 
 ## Awards
+```{python}
+#| output: asis
+awards = read_csv("awards.csv")
+print(render_entries(awards, kind="awards"))
+```
+
+## Professional Activities
 ```{python}
 #| output: asis
 awards = read_csv("awards.csv")

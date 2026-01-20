@@ -70,7 +70,7 @@ website:
   twitter-card: true 
 #  card-style: summary      
   
-  site-url: "www.liamkirkpatrick.com" #"https://liamkirkpatrick.github.io"
+  site-url: "liamkirkpatrick.com" #"https://liamkirkpatrick.github.io"
   
   google-analytics:
     tracking-id: "G-K9S7GVQ58S"  # Please delete or replace with your own tracking ID
