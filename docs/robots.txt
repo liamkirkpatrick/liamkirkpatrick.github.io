@@ -1,1 +1,1 @@
-Sitemap: https://liamkirkpatrick.github.io/sitemap.xml
+Sitemap: www.liamkirkpatrick.com/sitemap.xml

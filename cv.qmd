@@ -1,0 +1,214 @@
+---
+title: "CV"
+format:
+  html:
+    toc: true
+    css: assets/cv.css
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{python}
+from pathlib import Path
+import pandas as pd
+import re
+#from IPython.display import display, HTML
+
+
+DATA_DIR = Path("files/cv")
+YOUR_NAME = "Kirkpatrick, LR"  # <-- change to exactly what appears in your CSV author lists
+
+def read_csv(name: str) -> pd.DataFrame:
+    path = DATA_DIR / name
+    if not path.exists():
+        return pd.DataFrame()
+    return pd.read_csv(path)
+
+def normalize_whitespace(s: str) -> str:
+    # Treat missing values (NaN) and literal "nan" as empty
+    if pd.isna(s):
+        return ""
+    s_str = str(s)
+    if s_str.lower() == "nan":
+        return ""
+    return re.sub(r"\s+", " ", s_str).strip()
+
+def bold_name(authors: str, name: str) -> str:
+    """
+    Bolds and underlines exact matches of the name in common author formats.
+    Works best if your CSV uses one consistent representation of your name.
+    """
+    if not isinstance(authors, str):
+        return ""
+
+    a = normalize_whitespace(authors)
+    n = normalize_whitespace(name)
+
+    # Escape for regex and match with "word-ish" boundaries
+    pat = r"(?<![\w])" + re.escape(n) + r"(?![\w])"
+    # Wrap with underline and strong tags
+    a = re.sub(pat, f"<u><strong>{n}</strong></u>", a)
+
+    # Optional: also catch "Last, First" if you sometimes store that.
+    # If you *never* store that, you can delete this block.
+    if "," not in n:
+        parts = n.split(" ")
+        if len(parts) >= 2:
+            first = parts[0]
+            last = parts[-1]
+            alt = f"{last}, {first}"
+            pat_alt = r"(?<![\w])" + re.escape(alt) + r"(?![\w])"
+            a = re.sub(pat_alt, f"<u><strong>{alt}</strong></u>", a)
+
+    return a
+
+def fmt_link(doi: str = "", url: str = "") -> str:
+    doi = normalize_whitespace(doi)
+    url = normalize_whitespace(url)
+
+    links = []
+    if doi and doi.lower() != "nan":
+        links.append(f"[doi](https://doi.org/{doi})")
+    if url and url.lower() != "nan":
+        links.append(f"[link]({url})")
+    return " · ".join(links)
+
+def render_entries(df: pd.DataFrame, kind: str) -> str:
+    """
+    Returns Markdown that Quarto will render.
+    Expects at least 'year' and 'title' plus other fields depending on kind.
+    """
+    # drop fully-empty rows first
+    df = df.dropna(how="all")
+    if df.empty:
+        return "_No entries yet._"
+
+    # Ensure year exists and sort descending when possible
+    if "year" in df.columns:
+        df["year"] = pd.to_numeric(df["year"], errors="coerce")
+        df = df.sort_values(["year"], ascending=False)
+
+    blocks = []
+
+    for _, row in df.iterrows():
+        year = "" if "year" not in df.columns else row.get("year", "")
+        year_str = "" if pd.isna(year) else str(int(year)) if float(year).is_integer() else str(year)
+
+        title = normalize_whitespace(row.get("title", ""))
+        authors = bold_name(row.get("authors", ""), YOUR_NAME)
+
+        if kind == "publications":
+            venue = normalize_whitespace(row.get("venue", ""))
+            volume = normalize_whitespace(row.get("volume", ""))
+            pages = normalize_whitespace(row.get("pages", ""))
+            doi = row.get("doi", "")
+            url = row.get("url", "")
+
+            venue_bits = [v for v in [venue, volume, pages] if v and v.lower() != "nan"]
+            venue_str = ", ".join(venue_bits)
+
+            links = fmt_link(doi=doi, url=url)
+            links_str = f"<span class='cv-links'>{links}</span>" if links else ""
+
+            text = (
+                f"<span class='cv-title'>{title}</span><br>"
+                f"{authors}<br>"
+                f"<span class='cv-venue'>{venue_str}</span>"
+                + (f"<br>{links_str}" if links_str else "")
+            )
+
+        elif kind == "presentations":
+            event = normalize_whitespace(row.get("event", ""))
+            location = normalize_whitespace(row.get("location", ""))
+            date = normalize_whitespace(row.get("date", ""))
+            ptype = normalize_whitespace(row.get("type", ""))
+            url = row.get("url", "")
+
+            where = ", ".join([x for x in [event, location] if x and x.lower() != "nan"])
+            meta = " · ".join([x for x in [ptype, date] if x and x.lower() != "nan"])
+            links = fmt_link(url=url)
+
+            text = (
+                f"<span class='cv-title'>{title}</span><br>"
+                f"{authors}<br>"
+                f"{where}"
+                + (f"<br>{meta}" if meta else "")
+                + (f"<br><span class='cv-links'>{links}</span>" if links else "")
+            )
+
+        else:
+            # Generic fallback for awards/grants/etc.
+            item = normalize_whitespace(row.get("item", title))
+            details = normalize_whitespace(row.get("details", ""))
+            url = row.get("url", "")
+            links = fmt_link(url=url)
+
+            text = (
+                f"{item}"
+                + (f"<br>{details}" if details else "")
+                + (f"<br><span class='cv-links'>{links}</span>" if links else "")
+            )
+
+        block = f"""
+<div class="cv-entry">
+  <div class="cv-year">{year_str}</div>
+  <div class="cv-text"><p>{text}</p></div>
+</div>
+""".strip()
+
+        blocks.append(block)
+
+    return "\n\n".join(blocks)
+
+```
+
+## Publications
+```{python}
+#| output: asis
+pubs = read_csv("publications.csv")
+print(render_entries(pubs, kind="publications"))
+```
+
+## presentations
+```{python}
+#| output: asis
+pres = read_csv("presentations.csv")
+print(render_entries(pres, kind="presentations"))
+```
+
+## grants
+```{python}
+#| output: asis
+grants = read_csv("grants.csv")
+print(render_entries(grants, kind="grants"))
+```
+
+## mentorship
+```{python}
+#| output: asis
+ment = read_csv("mentorship.csv")
+print(render_entries(ment, kind="mentorship"))
+```
+
+## Awards
+```{python}
+#| output: asis
+awards = read_csv("awards.csv")
+print(render_entries(awards, kind="awards"))
+```
+
+
+<!-- ---
+title: "CV"
+description-meta: "Liam Kirkaptrick's CV"
+title-block-banner: false
+---
+
+<center>
+
+CV coming soon!
+
+</center> -->
+

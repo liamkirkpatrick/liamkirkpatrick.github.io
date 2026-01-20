@@ -6,20 +6,20 @@
       version="2.0">
 <channel>
 <title>Liam Kirkpatrick</title>
-<link>https://liamkirkpatrick.github.io/posts.html</link>
-<atom:link href="https://liamkirkpatrick.github.io/posts.xml" rel="self" type="application/rss+xml"/>
+<link>www.liamkirkpatrick.com/posts.html</link>
+<atom:link href="www.liamkirkpatrick.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Liam Kirkpatrick&#39;s Personal Website</description>
 <image>
 <url>https://quarto.org/quarto.png</url>
 <title>Liam Kirkpatrick</title>
-<link>https://liamkirkpatrick.github.io/posts.html</link>
+<link>www.liamkirkpatrick.com/posts.html</link>
 </image>
 <generator>quarto-1.8.26</generator>
 <lastBuildDate>Wed, 27 Aug 2025 07:00:00 GMT</lastBuildDate>
 <item>
   <title>Paper: Three-dimensional Multitrack Electrical Conductivity Method</title>
   <dc:creator>Liam Kirkpatrick</dc:creator>
-  <link>https://liamkirkpatrick.github.io/posts/paper1/</link>
+  <link>www.liamkirkpatrick.com/posts/paper1/</link>
   <description><![CDATA[ 
 
 
@@ -30,7 +30,7 @@
 <!-- Add a photo with caption: update the path and caption as needed -->
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://liamkirkpatrick.github.io/files/images/paper1/freezer.jpeg" class="img-fluid figure-img" style="width:70.0%" alt="Freezer_Time"></p>
+<p><img src="www.liamkirkpatrick.com/files/images/paper1/freezer.jpeg" class="img-fluid figure-img" style="width:70.0%" alt="Freezer_Time"></p>
 <figcaption>3D ECM scan of an ice core</figcaption>
 </figure>
 </div>
@@ -39,7 +39,7 @@
 <!-- Add a photo with caption: update the path and caption as needed -->
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://liamkirkpatrick.github.io/files/images/paper1/fig3.png" class="img-fluid figure-img" style="width:70.0%" alt="3D ECM scan"></p>
+<p><img src="www.liamkirkpatrick.com/files/images/paper1/fig3.png" class="img-fluid figure-img" style="width:70.0%" alt="3D ECM scan"></p>
 <figcaption>3D ECM scan of an ice core</figcaption>
 </figure>
 </div>
@@ -60,14 +60,14 @@ Access
 
  ]]></description>
   <category>publication</category>
-  <guid>https://liamkirkpatrick.github.io/posts/paper1/</guid>
+  <guid>www.liamkirkpatrick.com/posts/paper1/</guid>
   <pubDate>Wed, 27 Aug 2025 07:00:00 GMT</pubDate>
-  <media:content url="https://liamkirkpatrick.github.io/files/images/paper1/fig3.png" medium="image" type="image/png" height="112" width="144"/>
+  <media:content url="www.liamkirkpatrick.com/files/images/paper1/fig3.png" medium="image" type="image/png" height="112" width="144"/>
 </item>
 <item>
   <title>Allan Hills</title>
   <dc:creator>Liam Kirkpatrick</dc:creator>
-  <link>https://liamkirkpatrick.github.io/posts/allan_hills/</link>
+  <link>www.liamkirkpatrick.com/posts/allan_hills/</link>
   <description><![CDATA[ 
 
 
@@ -186,14 +186,14 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <category>fieldwork</category>
-  <guid>https://liamkirkpatrick.github.io/posts/allan_hills/</guid>
+  <guid>www.liamkirkpatrick.com/posts/allan_hills/</guid>
   <pubDate>Wed, 15 Jan 2025 08:00:00 GMT</pubDate>
-  <media:content url="https://liamkirkpatrick.github.io/files/images/allan_hills/team.JPG" medium="image"/>
+  <media:content url="www.liamkirkpatrick.com/files/images/allan_hills/team.JPG" medium="image"/>
 </item>
 <item>
   <title>COLDEX CPL Video</title>
   <dc:creator>Liam Kirkpatrick</dc:creator>
-  <link>https://liamkirkpatrick.github.io/posts/martin_video/</link>
+  <link>www.liamkirkpatrick.com/posts/martin_video/</link>
   <description><![CDATA[ 
 
 
@@ -221,14 +221,14 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <category>media</category>
-  <guid>https://liamkirkpatrick.github.io/posts/martin_video/</guid>
+  <guid>www.liamkirkpatrick.com/posts/martin_video/</guid>
   <pubDate>Thu, 10 Oct 2024 07:00:00 GMT</pubDate>
-  <media:content url="https://liamkirkpatrick.github.io/files/images/paper1/freezer.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="www.liamkirkpatrick.com/files/images/paper1/freezer.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>ECM Video for NSF Ice Drilling Program</title>
   <dc:creator>Liam Kirkpatrick</dc:creator>
-  <link>https://liamkirkpatrick.github.io/posts/idp_video/</link>
+  <link>www.liamkirkpatrick.com/posts/idp_video/</link>
   <description><![CDATA[ 
 
 
@@ -243,14 +243,14 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <category>media</category>
-  <guid>https://liamkirkpatrick.github.io/posts/idp_video/</guid>
+  <guid>www.liamkirkpatrick.com/posts/idp_video/</guid>
   <pubDate>Fri, 28 Jun 2024 07:00:00 GMT</pubDate>
-  <media:content url="https://liamkirkpatrick.github.io/files/images/idp_video/ecm_scan.png" medium="image" type="image/png" height="72" width="144"/>
+  <media:content url="www.liamkirkpatrick.com/files/images/idp_video/ecm_scan.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
   <title>Mt. Waddington</title>
   <dc:creator>Liam Kirkpatrick</dc:creator>
-  <link>https://liamkirkpatrick.github.io/posts/waddington/</link>
+  <link>www.liamkirkpatrick.com/posts/waddington/</link>
   <description><![CDATA[ 
 
 
@@ -369,14 +369,14 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <category>fieldwork</category>
-  <guid>https://liamkirkpatrick.github.io/posts/waddington/</guid>
+  <guid>www.liamkirkpatrick.com/posts/waddington/</guid>
   <pubDate>Sun, 25 Jun 2023 07:00:00 GMT</pubDate>
-  <media:content url="https://liamkirkpatrick.github.io/files/images/waddington/skiing.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="www.liamkirkpatrick.com/files/images/waddington/skiing.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Hercules Dome</title>
   <dc:creator>Liam Kirkpatrick</dc:creator>
-  <link>https://liamkirkpatrick.github.io/posts/herc_dome/</link>
+  <link>www.liamkirkpatrick.com/posts/herc_dome/</link>
   <description><![CDATA[ 
 
 
@@ -503,14 +503,14 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <category>fieldwork</category>
-  <guid>https://liamkirkpatrick.github.io/posts/herc_dome/</guid>
+  <guid>www.liamkirkpatrick.com/posts/herc_dome/</guid>
   <pubDate>Sun, 15 Jan 2023 08:00:00 GMT</pubDate>
-  <media:content url="https://liamkirkpatrick.github.io/files/images/herc_dome/kneeling.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="www.liamkirkpatrick.com/files/images/herc_dome/kneeling.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Denali</title>
   <dc:creator>Liam Kirkpatrick</dc:creator>
-  <link>https://liamkirkpatrick.github.io/posts/denali/</link>
+  <link>www.liamkirkpatrick.com/posts/denali/</link>
   <description><![CDATA[ 
 
 
@@ -639,14 +639,14 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <category>fieldwork</category>
-  <guid>https://liamkirkpatrick.github.io/posts/denali/</guid>
+  <guid>www.liamkirkpatrick.com/posts/denali/</guid>
   <pubDate>Tue, 28 Jun 2022 07:00:00 GMT</pubDate>
-  <media:content url="https://liamkirkpatrick.github.io/files/images/denali/skiing.JPG" medium="image"/>
+  <media:content url="www.liamkirkpatrick.com/files/images/denali/skiing.JPG" medium="image"/>
 </item>
 <item>
   <title>Juneau Icefield Research Program</title>
   <dc:creator>Liam Kirkpatrick</dc:creator>
-  <link>https://liamkirkpatrick.github.io/posts/jirp/</link>
+  <link>www.liamkirkpatrick.com/posts/jirp/</link>
   <description><![CDATA[ 
 
 
@@ -767,9 +767,9 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <category>fieldwork</category>
-  <guid>https://liamkirkpatrick.github.io/posts/jirp/</guid>
+  <guid>www.liamkirkpatrick.com/posts/jirp/</guid>
   <pubDate>Sun, 15 Aug 2021 07:00:00 GMT</pubDate>
-  <media:content url="https://liamkirkpatrick.github.io/files/images/jirp/placeholder.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="www.liamkirkpatrick.com/files/images/jirp/placeholder.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
