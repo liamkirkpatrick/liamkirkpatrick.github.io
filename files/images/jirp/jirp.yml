@@ -1,0 +1,31 @@
+id: field-campaign
+show_captions: below   # "below" or "overlay"
+images:
+ - src: /files/images/jirp/albedo.jpg
+   title: ""
+   caption: "Measuring snow surface albedo (reflectivity) with the Taku Towers in the background."
+   alt: ""
+ - src: /files/images/jirp/tow.jpg
+   title: ""
+   caption: "Getting towed (on skis, by a skidoo) was the best way to quickly get around. Here we travel under the Taku Towers to a couple of shallow ice coring sites."
+   alt: ""
+ - src: /files/images/jirp/traverse.jpg
+   title: ""
+   caption: "Blue skies on a traverse day, moving between camps."
+   alt: ""
+ - src: /files/images/jirp/night.jpg
+   title: ""
+   caption: "Camp 18, our final camp on the icefield, illuminated at night."
+   alt: ""
+ - src: /files/images/jirp/skiing.jpg
+   title: ""
+   caption: "Some recreational skiing above Camp 18."
+   alt: ""
+ - src: /files/images/jirp/crack.jpeg
+   title: ""
+   caption: "A small group of us attempted to pioneer a route back to Juneau via the Mendenhall Glacier at the end of the season. Here we approach the end of our effort in a complex crevasse field on the lower glacier, just before calling a helicopter for the final few miles off the icefield."
+   alt: ""
+
+
+
+
