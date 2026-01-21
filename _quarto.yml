@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
     - "files/**"
+    - CNAME
 
 # Meta
 description-meta: "Liam Kirkpatrick's Personal Website"
@@ -37,7 +38,7 @@ website:
 
     right: 
       - text: CV
-        href: /404.html
+        href: cv.qmd
       - icon: github
         href: https://github.com/liamkirkpatrick
         target: _blank    

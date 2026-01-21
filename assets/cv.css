@@ -26,3 +26,14 @@
 .cv-text p {
   margin: 0;
 }
+
+/* for thesis entries */
+
+.cv-subline {
+  margin-left: 1.25rem;   /* indentation */
+  margin-top: 0.15rem;
+}
+
+.cv-label {
+  font-weight: 600;
+}

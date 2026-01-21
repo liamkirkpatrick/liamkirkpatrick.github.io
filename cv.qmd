@@ -21,9 +21,12 @@ DATA_DIR = Path("files/cv")
 YOUR_NAME = "Kirkpatrick, LR"  # <-- change to exactly what appears in your CSV author lists
 
 def read_csv(name: str) -> pd.DataFrame:
+
+
     path = DATA_DIR / name
     if not path.exists():
         return pd.DataFrame()
+
     return pd.read_csv(path)
 
 def normalize_whitespace(s: str) -> str:
@@ -87,14 +90,23 @@ def render_entries(df: pd.DataFrame, kind: str) -> str:
 
     # Ensure year exists and sort descending when possible
     if "year" in df.columns:
-        df["year"] = pd.to_numeric(df["year"], errors="coerce")
-        df = df.sort_values(["year"], ascending=False)
+
+        # sort by year (and make non-integers come first)
+        year_num = pd.to_numeric(df["year"], errors="coerce")
+        df = df.assign(_is_non_year=year_num.isna(),_year_num=year_num).sort_values(
+            by=["_is_non_year", "_year_num"],
+            ascending=[False, False]
+            ).drop(columns=["_is_non_year", "_year_num"])
+    # if "year" in df.columns:
+    #     df["year"] = pd.to_numeric(df["year"], errors="coerce")
+    #     df = df.sort_values(["year"], ascending=False)
 
     blocks = []
 
     for _, row in df.iterrows():
-        year = "" if "year" not in df.columns else row.get("year", "")
-        year_str = "" if pd.isna(year) else str(int(year)) if float(year).is_integer() else str(year)
+        
+        #year_str = "" if pd.isna(year) else str(int(year)) if float(year).is_integer() else str(year)
+        
 
         title = normalize_whitespace(row.get("title", ""))
         authors = bold_name(row.get("authors", ""), YOUR_NAME)
@@ -138,6 +150,58 @@ def render_entries(df: pd.DataFrame, kind: str) -> str:
                 + (f"<br><span class='cv-links'>{links}</span>" if links else "")
             )
 
+        elif kind == "mentorship":
+            item = normalize_whitespace(row.get("item", title))
+            details = normalize_whitespace(row.get("details", ""))
+            project = normalize_whitespace(row.get("project", ""))
+            url = row.get("url", "")
+            links = fmt_link(url=url)
+
+            text = (
+                f"<span class='cv-title'>{item}</span>"
+                + (f"<br>{details}" if details else "")
+                + (f"<br>Project: {project}" if [project] else "")
+                + (f"<br><span class='cv-links'>{links}</span>" if links else "")
+            )
+
+        elif kind== "education":
+
+            school = normalize_whitespace(row.get("school", ""))
+            degree1 = normalize_whitespace(row.get("degree1", ""))
+            thesis1 = normalize_whitespace(row.get("thesis1_title", ""))
+            thesis1_type = normalize_whitespace(row.get("thesis1_type", ""))
+            advisor1 = normalize_whitespace(row.get("advisor1", ""))
+            degree2 = normalize_whitespace(row.get("degree2", ""))
+            thesis2 = normalize_whitespace(row.get("thesis2_title", ""))
+            thesis2_type = normalize_whitespace(row.get("thesis2_type", ""))
+            advisor2 = normalize_whitespace(row.get("advisor2", ""))
+  
+            thesis_bits1 = []
+            #thesis_block1 = []
+            if len(thesis1)>0:
+                thesis_bits1.append(f"<div class='cv-subline'><span class='cv-label'>{thesis1_type}:</span> {'*'+thesis1+'*'}</div>")
+                #thesis_block1 = thesis_bits1
+            if len(advisor1)>0:
+                thesis_bits1.append(f"<div class='cv-subline'><span class='cv-label'>Advisor:</span> {advisor1}</div>")
+            thesis_block1 = "</p>".join(thesis_bits1)
+
+            thesis_bits2 = []
+            #thesis_block2 = []
+            if len(thesis2)>0:
+                thesis_bits2.append(f"<div class='cv-subline'><span class='cv-label'>{thesis2_type}:</span> {'*'+thesis2+'*'}</div>")
+                #thesis_block2 = thesis_bits2
+            if len(advisor2)>0:
+                thesis_bits2.append(f"<div class='cv-subline'><span class='cv-label'>Advisor:</span> {advisor2}</div>")
+            thesis_block2 = "</p>".join(thesis_bits2)
+
+            text = (
+                f"<span class='cv-title'>{school}</span><br>"
+                + (f"<br>{degree1}" if degree1 else "")
+                + (f"<br>{thesis_block1}" if len(thesis_block1) > 0 else "")
+                + (f"<br>{degree2}" if degree2 else "")
+                + (f"<br>{thesis_block2}" if len(thesis_block2) > 0  else "")
+            )
+
         else:
             # Generic fallback for awards/grants/etc.
             item = normalize_whitespace(row.get("item", title))
@@ -146,12 +210,26 @@ def render_entries(df: pd.DataFrame, kind: str) -> str:
             links = fmt_link(url=url)
 
             text = (
-                f"{item}"
+                f"<span class='cv-title'>{item}</span>"
                 + (f"<br>{details}" if details else "")
                 + (f"<br><span class='cv-links'>{links}</span>" if links else "")
             )
 
-        block = f"""
+        if kind == "education":
+            start_year = str(row.get("start_year",""))
+            close_year  = str(row.get("grad_year",""))
+            block = f"""
+<div class="cv-entry">
+  <div class="cv-year">{start_year+' - '+close_year}</div>
+  <div class="cv-text"><p>{text}</p></div>
+</div>
+""".strip()
+        else: 
+
+            year = "" if "year" not in df.columns else row.get("year", "")
+            year_str = str(year)
+
+            block = f"""
 <div class="cv-entry">
   <div class="cv-year">{year_str}</div>
   <div class="cv-text"><p>{text}</p></div>
@@ -162,6 +240,15 @@ def render_entries(df: pd.DataFrame, kind: str) -> str:
 
     return "\n\n".join(blocks)
 
+
+
+```
+
+## Education
+```{python}
+#| output: asis
+pubs = read_csv("education.csv")
+print(render_entries(pubs, kind="education"))
 ```
 
 ## Publications
@@ -176,13 +263,6 @@ print(render_entries(pubs, kind="publications"))
 #| output: asis
 pres = read_csv("presentations.csv")
 print(render_entries(pres, kind="presentations"))
-```
-
-## Grants
-```{python}
-#| output: asis
-grants = read_csv("grants.csv")
-print(render_entries(grants, kind="grants"))
 ```
 
 ## Mentorship
@@ -202,8 +282,8 @@ print(render_entries(awards, kind="awards"))
 ## Professional Activities
 ```{python}
 #| output: asis
-awards = read_csv("awards.csv")
-print(render_entries(awards, kind="awards"))
+awards = read_csv("activities.csv")
+print(render_entries(awards, kind="activities"))
 ```
 
 
