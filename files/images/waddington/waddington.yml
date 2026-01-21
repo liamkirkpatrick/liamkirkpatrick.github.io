@@ -1,11 +1,26 @@
 id: field-campaign
 show_captions: below   # "below" or "overlay"
 images:
-#  - src: /files/images/herc_dome/benliam.jpg
-#    title: "HF Radar Sled"
-#    caption: "Here I stand with Ben Hills next to our HF radar sled at Hercules Dome, Antarctica."
-#    alt: "Ben and Liam stand beside HF radar sled in Antarctica"
-
+ - src: /files/images/waddington/approach.JPG
+   title: ""
+   caption: "Approaching camp via helicopter, with Mt. Waddington behind. Note that camp is set up in a line perpendicular to the wind direction, to avoid one tent's drifts burying another"
+   alt: ""
+ - src: /files/images/waddington/clouds.jpeg
+   title: ""
+   caption: "Mt. Waddington splits a cloud over the drill tent on an otherwise sunny day."
+   alt: ""
+ - src: /files/images/waddington/drilling.jpeg
+   title: ""
+   caption: "Day to day work as a core handler - working fast to log critical info on cores and get them stored before they melt."
+   alt: ""
+ - src: /files/images/waddington/skiing.jpeg
+   title: ""
+   caption: "Operating ground-penatrating radar by skis makes for a fun break from drilling! And a rare opportunity to leave camp."
+   alt: ""
+ - src: /files/images/waddington/vhf.jpeg
+   title: ""
+   caption: "Here I kneel by my VHF radar setup, very similar to what we deployed at Hercules Dome in Antarctica."
+   alt: ""
 
 
 

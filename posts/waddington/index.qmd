@@ -9,7 +9,13 @@ image: "/files/images/waddington/skiing.jpeg"
 #draft: true
 ---
 
-Haven't gotten to writting this one up yet - stay tuned!
+Shortly after returning from [Hercules Dome](/posts/herc_dome/), I was lucky to have an opportunity to contribute to a project drilling a new core on Mt. Waddington in British Columbia. This was a relatively "local" project - a mere 12-hour drive (including an hour or two on dirt) from Seattle followed by a short helicopter flight. The goal of the project was to drill one of the southernmost ice cores in North America, providing a couple-hundred year record of climate evolution including events like heat waves (and so glacier melt events), snowfall, and wildfire.
+
+The project was quite challenging. Daytime temperatures were well above freezing, and the glacier itself was quite warm (O°C almost everywehre). This neccessitated a [thermal](https://icedrill.org/equipment/electrothermal-drill) rather than mechanical drill system, built by the US Ice Drilling Program. We did our best to keep cores in a sub-surface trench, and flew them off the glacier via helicopter to a freezer trailer waiting at the helipad below.
+
+My personal contribution to the project included both working as an ice core handler, but also running the geophyscial measurements for the summer. I deployed both ApRES phase-sensitive radar  and VHF ground-penatrating radar to continue a long-term project to constrain changes to the glacier ove rtime.
+
+There's been some fantstic media coverage about this project. If you're interested, check out [this article](https://www.theglobeandmail.com/canada/article-glacier-science-climate-change/) from a Canadian outlet.
 
 <div class="q-gallery" data-gallery="/files/images/waddington/waddington.yml"></div>
 
