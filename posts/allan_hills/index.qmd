@@ -9,8 +9,7 @@ image: "/files/images/allan_hills/team.JPG"
 #draft: true
 ---
 
-
-
+Haven't gotten to writting this one up yet - stay tuned!
 
 <div class="q-gallery" data-gallery="/files/images/allan_hills/allan_hills.yml"></div>
 
