@@ -11,7 +11,8 @@ author-meta: "Liam Kirkpatrick"
 
 website:
   title: "Liam Kirkpatrick"
-  image: "https://quarto.org/quarto.png"
+  image: "files/images/basic/headshot1.jpg"
+  favicon: "files/images/basic/favicon.png"
   description: "Liam Kirkpatrick's Personal Website"
  
   navbar:

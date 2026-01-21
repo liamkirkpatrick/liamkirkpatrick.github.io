@@ -1,10 +1,46 @@
 ---
 title: "Contact"
-description-meta: "Reach out to me with questions and comments"
+description-meta: "Contact Information"
+image: "files/images/basic/headshot1.jpg"
 title-block-banner: false
+<!-- page-navigation: false -->
+toc: false
+#sidebar: false
+page-layout: full
+
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 85%
+  links:
+    - icon: globe
+      text: Uprofile
+      href: https://ess.uw.edu/people/liam-kirkpatrick/
+      target: _blank
+    - icon: envelope
+      text: E-mail
+      href: mailto:liamkp@uw.com    
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/liam-r-kirkpatrick/
+      target: _blank
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/kirkpatrick.liam/
+      target: _blank
+    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
+      href: https://orcid.org/0000-0002-6476-5331
+      target: _blank
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=ldlw-aEAAAAJ&hl=en&oi=ao
+      target: _blank
+#    - text: "{{< ai researchgate >}} Research Gate"
+#      href: https://www.researchgate.net
+#      target: _blank
+
 ---
 
-<center>
+:::{#hero-heading}
 
 Questions about my research, fieldwork, or anything else? 
 
@@ -12,6 +48,4 @@ You can reach me at my [email](liamkp@uw.edu).
 
 I look forward to hearing from you!
 
-
-</center>
-
+:::
