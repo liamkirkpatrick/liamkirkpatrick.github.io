@@ -59,9 +59,11 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 
 Welcome to my personal website.
 
-I’m Liam Kirkpatrick, a climate and glaciology PhD cantidate currently studying in the Department of Earth and Space Sciences at the University of Washington. My interests lie at the intersection of climate science, data science, and engineering. My research is focused on what ice cores can tell us about climate before we could systematically observe the weather, and how these lessons can be applied to better understand the future of our climate system. 
+I’m Liam Kirkpatrick, a climate and glaciology PhD cantidate currently studying in the Department of Earth and Space Sciences at the University of Washington. My interests lie at the intersection of climate science, geophysics, data science, and engineering. Broadly, my research goal is to improve and extend ice core records of past climate to improve our understanding of anthropogenic climate change.
 
-I’ve made this site to share a bit about myself and my research. My goal is to write about my fieldwork and research projects in an accessible and fun way, while also sharing images of the incredible places my research takes me. I’m excited to answer questions or engage in discussion with anyone interested in any aspect of this work!
+I’ve made this site to share a bit about myself and my research, everything from fieldwork to lab work, fun youtube videos to nerdy science explainers.
+
+I hope you enjoy, and please reach out with questions!
 
 :::
 
