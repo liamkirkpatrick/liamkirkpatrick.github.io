@@ -1,0 +1,23 @@
+---
+title: "Animation"
+description-meta: "Animation of ALHIC1901 228_4 water isotope dip adjustment"
+#page-layout: full
+#back-to-top-navigation: true
+#title-block-banner: false
+css: custom.css
+---
+
+
+<!-- Include academic icons or buttons
+{{< include /files/includes/_academic.qmd >}} -->
+
+## Water Isotope Dip-Adjustment Animation
+
+This video shows the allignment of ALHIC1901 section 228_4 water isotopes with dip adjustment
+
+{{< video files/media/iso_movie.mp4 >}}
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
