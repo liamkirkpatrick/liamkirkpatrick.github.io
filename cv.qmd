@@ -285,17 +285,3 @@ print(render_entries(awards, kind="awards"))
 awards = read_csv("activities.csv")
 print(render_entries(awards, kind="activities"))
 ```
-
-
-<!-- ---
-title: "CV"
-description-meta: "Liam Kirkaptrick's CV"
-title-block-banner: false
----
-
-<center>
-
-CV coming soon!
-
-</center> -->
-
