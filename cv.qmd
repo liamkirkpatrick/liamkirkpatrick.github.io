@@ -27,7 +27,7 @@ def read_csv(name: str) -> pd.DataFrame:
     if not path.exists():
         return pd.DataFrame()
 
-    return pd.read_csv(path)
+    return pd.read_csv(path, dtype=str)
 
 def normalize_whitespace(s: str) -> str:
     # Treat missing values (NaN) and literal "nan" as empty
@@ -67,13 +67,16 @@ def bold_name(authors: str, name: str) -> str:
 
     return a
 
-def fmt_link(doi: str = "", url: str = "") -> str:
+def fmt_link(doi: str = "", url: str = "", preprint_url: str = "") -> str:
     doi = normalize_whitespace(doi)
     url = normalize_whitespace(url)
+    preprint_url = normalize_whitespace(preprint_url)
 
     links = []
     if doi and doi.lower() != "nan":
-        links.append(f"[doi](https://doi.org/{doi})")
+        links.append(f"[Article](https://doi.org/{doi})")
+    if preprint_url:
+        links.append(f"[Preprint]({preprint_url})")
     if url and url.lower() != "nan":
         links.append(f"[link]({url})")
     return " · ".join(links)
@@ -114,14 +117,19 @@ def render_entries(df: pd.DataFrame, kind: str) -> str:
         if kind == "publications":
             venue = normalize_whitespace(row.get("venue", ""))
             volume = normalize_whitespace(row.get("volume", ""))
+            issue = normalize_whitespace(row.get("issue", ""))
             pages = normalize_whitespace(row.get("pages", ""))
             doi = row.get("doi", "")
             url = row.get("url", "")
 
-            venue_bits = [v for v in [venue, volume, pages] if v and v.lower() != "nan"]
+            if volume and issue:
+                volume = f"{volume}({issue})"
+            if row.get("year") == "In preparation" and venue:
+                venue = f"Planned submission to {venue}"
+            venue_bits = [v for v in [venue, volume, pages] if v]
             venue_str = ", ".join(venue_bits)
 
-            links = fmt_link(doi=doi, url=url)
+            links = fmt_link(doi=doi, url=url, preprint_url=row.get("preprint_url", ""))
             links_str = f"<span class='cv-links'>{links}</span>" if links else ""
 
             text = (
@@ -255,7 +263,13 @@ print(render_entries(pubs, kind="education"))
 ```{python}
 #| output: asis
 pubs = read_csv("publications.csv")
-print(render_entries(pubs, kind="publications"))
+if "section" in pubs:
+    for section, entries in pubs.groupby("section", sort=False, dropna=False):
+        if pd.notna(section):
+            print(f"### {section}\n")
+        print(render_entries(entries, kind="publications"), end="\n\n")
+else:
+    print(render_entries(pubs, kind="publications"))
 ```
 
 ## Selected Presentations
