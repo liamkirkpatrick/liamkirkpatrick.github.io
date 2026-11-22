@@ -65,7 +65,7 @@ def bold_name(authors: str, name: str) -> str:
             pat_alt = r"(?<![\w])" + re.escape(alt) + r"(?![\w])"
             a = re.sub(pat_alt, f"<u><strong>{alt}</strong></u>", a)
 
-    return a
+    return a.replace("*", r"\*")
 
 def fmt_link(doi: str = "", url: str = "", preprint_url: str = "") -> str:
     doi = normalize_whitespace(doi)
