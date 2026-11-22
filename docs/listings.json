@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/hailey_smith/index.html",
       "/posts/paper1/index.html",
       "/posts/allan_hills/index.html",
       "/posts/martin_video/index.html",
@@ -15,6 +16,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/hailey_smith/index.html",
       "/posts/paper1/index.html",
       "/posts/allan_hills/index.html",
       "/posts/martin_video/index.html",
